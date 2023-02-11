@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-""""
-Script that adds all arguments to a python list, and then saves them to a file
+"""
+Script that adds all arguments to a Python list, and then saves them to a file
 """
 
 from sys import argv
@@ -15,6 +15,6 @@ except FileNotFoundError:
     json_list = []
 
 for arg in argv[1:]:
-    json_list.appending(arg)
+    json_list.append(arg)
 
 save_to_json_file(json_list, filename)
