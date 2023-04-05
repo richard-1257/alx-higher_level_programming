@@ -33,55 +33,47 @@ Prototypes for functions written in this project:
 - 3. To JSON string
      - [3-to_json_string.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/3-to_json_string.py): Python function that returns the JSON string representation of an object.
      
-- 5. Cocktail shaker sort
-     - [101-cocktail_sort_list.c](https://github.com/richard-1257/sorting_algorithms/blob/master/101-cocktail_sort_list.c): C function that sorts a `listint_t` doubly-linked list of integers in ascending order using the Cocktail Shaker Sort algorithm.
-     - Prints the list after each swap.
-     - [101-O](https://github.com/richard-1257/sorting_algorithms/blob/master/101-O): Text file containing the best, average, and worst case time complexities of the Cocktail Shaker Sort algorithm, one per line.
+- 4. From JSON string to Object
+     - [4-from_json_string.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/4-from_json_string.py): Python function that returns the Python object represented by a JSON string.
      
-- 6. Counting sort
-     - [102-counting_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/102-counting_sort.c): C function that sorts an array of integers in ascending order using the Counting Sort algorithm.
-     - Assumes that the array will only contain numbers `>= 0`.
-     - Prints the counting array after it has been initialized.
-     - [102-O](https://github.com/richard-1257/sorting_algorithms/blob/master/102-O): Text file containing the best, average, and worst case time complexities of the Counting Sort algorithm, one per line.
+- 5. Save Object to a file
+     - [5-save_to_json_file.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/5-save_to_json_file.py): Python function that writes an object to a text file using JSON representation.
      
-- 7. Merge sort
-     - [103-merge_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/103-merge_sort.c): C function that sorts an array of integers in ascending order using the Merge Sort algorithm.
-     - Implements the `top-down` Merge Sort algorithm
-         - When an array is divided, the size of the left subarray is always less than or equal to the size of the right subarray.
-         - Always sorts the left subarray before the right one.
-     - Prints subarrays each time they are merged.
-     - [103-O](https://github.com/richard-1257/sorting_algorithms/blob/master/103-O): Text file containing the best, average, and worst case time complexities of the Merge Sort algorithm, one per line.
+- 6. Create object from a JSON file
+     - [6-load_from_json_file.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/6-load_from_json_file.py): Python function that creates an object from a `.json` file.
 
-- 8. Heap sort
-     - [104-heap_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/104-heap_sort.c): C function that sorts an array of integers in ascending order using the Heap Sort algorithm.
-     - Implements the `sift-down` Heap Sort algorithm.
-     - Prints the array after each swap.
-     - [104-O](https://github.com/richard-1257/sorting_algorithms/blob/master/104-O): Text file containing the best, average, and worst case time complexiites of the Heap Sort algorithm, one per line.
+- 7. Load, add, save
+     - [7-add_item.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/7-add_item.py): Python script that stores all command line arguments to a Python list saved in the file `add_item.json.`
      
-- 9. Radix sort
-     -[105-radix_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/105-radix_sort.c): C function that sorts an array of integers in ascending order using the Radix Sort algorithm.
-     - Implements the Least-Significant-Digit (LSD) Radix Sort algorithm.
-     - Assumes that the array will only contain numbers `>= 0`.
-     - Prints the array for each significant digit increase.
-     - [105-O](https://github.com/richard-1257/sorting_algorithms/blob/master/105-O): Text file containing the best, average, and worst case time complexities of the Radix Sort algorithm, one per line.
+- 8. Class to JSON
+     -[8-class_to_json.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/8-class_to_json.py): Python function that returns the dictionary description for simple Python data structures (lists, dictionaries, strings, integers and booleans).
      
-- 10. Bitonic sort
-      - [106-bitonic_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/106-bitonic_sort.c):  C function that sorts an array of integers in ascending order using the Bitonic Sort algorithm.
-      - Assumes that `size` is a power of 2 (ie. `size` can be expressed as `2^k` where `k >= 0`).
-      - Prints subarrays each time they are merged.
-      - [106-O](https://github.com/richard-1257/sorting_algorithms/blob/master/106-O): Text file containing the best, average, and worst case time complexities of the Bitonic Sort algorithm, one per line.
+- 9. Student to JSON
+      - [9-student.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/9-student.py): Python class `Student` that defines a student. Includes:
+        -Public instance attributes `first_name,` `last_name,` and `age.`
+        - Instantiation with `first_name,` `last_name,` and `age:` `def __init__(self, first_name, last_name, age):`
+        - Public method `def to_json(self):` that returns the dictionary representation of a `Student` instance.
       
-- 11. Quick Sort - Hoare Partition scheme
-      - [107-quick_sort_hoare.c](https://github.com/richard-1257/sorting_algorithms/blob/master/107-quick_sort_hoare.c): C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
-      - Implements the Hoare partition scheme.
-      - Always uses the last elemement of the partition being sorted as the pivot.
-      - Prints the array after each swap.
-      - [107-O](https://github.com/richard-1257/sorting_algorithms/blob/master/107-O): Text file containing the best, average, and worst case time complexities of the Quick Sort Hoare Partition cheme algorithm, one per line.
+- 10. Student to JSON with filter
+      - [10-student.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/10-student.py): Python class `Student` that defines a student. Builds on [9-student.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/9-student.py) with:
+        - Public method `def to_json(self, attrs=None):` that returns the dictionary representation of a `Student` instance.
+        - If `attrs` is a list of strings, only the attributes listed are represented in the dictionary.
       
-- 12. Dealer
-      - [1000-sort_deck.c](https://github.com/richard-1257/sorting_algorithms/blob/master/1000-sort_deck.c): C function that sorts a `deck_node_t` doubly-linked list deck of cards.
-      - Assumes that there are exactly 52 elements in the doubly-linked list.
-      - Orders the deck from spades to diamonds and from aces to kings.
+- 11. Student to disk and reload
+      - [11-student.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/11-student.py):  Python class `Student` that defines a student. Builds on [10-student.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/10-student.py) with:
+        - Public method `def reload_from_json(self, json):` that replaces all attributes of the `Student` instance using the key/value pairs listed in `json`
+        - The method assumes `json` is a dictionary containing attributes with name/value corresponding to key/value.
+
+- 12. Pascal's Triangle
+      - [12-pascal_triangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/12-pascal_triangle.py): Python function that returns a list of lists of integers representing Pascal's triangle of size `n.`
+        - Assumes the size parameter `n` is an integer.
+        - If `n` is less than or equal to `0,` returns an empty list.
       
-# Authors
-<details><summary>Richard ifeanyi</summary>
+- 13. Search and update
+      - [100-append_after.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/100-append_after.py): Python function that inserts a line of text to a file after each line containing a specified string.
+      
+- 14. Log parsing
+      - [101-stats.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/101-stats.py): Python script that reads lines from standard input. After every 10 lines or the input of a keyboard interruption `(CTRL + C),` computes the following metrics:
+        - Total file size up that point: `File size: <total size>`
+        - Status code of each read line, printed in ascending order: `<status code>: <number>`
+      - Input format: `<IP Address> - [<date>] "GET /projects/260 HTTP/1.1" <status code> <file size>`
