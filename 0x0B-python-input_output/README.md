@@ -27,10 +27,8 @@ Prototypes for functions written in this project:
 - 1. Write to a file
      - [1-write_file.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/1-write_file.py): Python function that writes a string to a UTF8 text file and returns the number of characters written.
      
-- 2. Selection sort
-     - [2-selection_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/2-selection_sort.c): C function that sorts an array of integers in ascending order using the Selection Sort algorithm.
-     - Prints the array after each swap.
-     - [2-O](https://github.com/richard-1257/sorting_algorithms/blob/master/2-O): Text file containing the best, average, and worst case time complexities of the Selection Sort algorithm, one per line.
+- 2. Append to a file
+     - [2-append_write.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/2-append_write.py): Python function that appends a string to the end of a UTF8 text file and returns the number of characters appended.
 
 - 3. Quick sort
      - [3-quick_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/3-quick_sort.c): C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
