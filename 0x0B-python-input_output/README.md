@@ -30,17 +30,8 @@ Prototypes for functions written in this project:
 - 2. Append to a file
      - [2-append_write.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/2-append_write.py): Python function that appends a string to the end of a UTF8 text file and returns the number of characters appended.
 
-- 3. Quick sort
-     - [3-quick_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/3-quick_sort.c): C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
-     - Implements the Lomuto partition scheme.
-     - Always uses the last element of the partition being sorted as the pivot.
-     - Prints the array after each swap.
-     -[3-O](https://github.com/richard-1257/sorting_algorithms/blob/master/3-O): Text file containing the best, average, and worst case time complexities of the Quick Sort Lomuto Partition scheme algorithm, one per line.
-
-- 4. Shell sort - Knuth Sequence
-     - [100-shell_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/100-shell_sort.c): C function that sorts an array of integers in ascending order using the Shell sort algorithm.
-     - Implements the Knuth interval sequence.
-     - Prints the array each time the interval is decreased.
+- 3. To JSON string
+     - [3-to_json_string.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0B-python-input_output/3-to_json_string.py): Python function that returns the JSON string representation of an object.
      
 - 5. Cocktail shaker sort
      - [101-cocktail_sort_list.c](https://github.com/richard-1257/sorting_algorithms/blob/master/101-cocktail_sort_list.c): C function that sorts a `listint_t` doubly-linked list of integers in ascending order using the Cocktail Shaker Sort algorithm.
