@@ -24,12 +24,15 @@ Prototypes for functions written in this project:
 - 0. Lookup
      - [0-lookup.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0A-python-inheritance/0-lookup.py):  Python function that returns a list of available attributes and methods of an objects.
      
+
 - 1. My list
      - [1-my_list.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0A-python-inheritance/1-my_list.py): Python class `MyList` that inherits from `list.` Includes:
        - Public instance method `def print_sorted(self):` that prints the list in ascending sorted order (assumes all list elements are `int`s).
      
+
 - 2. Exact same object
      - [2-is_same_class.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0A-python-inheritance/2-is_same_class.py): Python function that returns `True` if an object is exactly an instance of a specified class; otherwise `False.`
+
 
 - 3. Quick sort
      - [3-quick_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/3-quick_sort.c): C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
