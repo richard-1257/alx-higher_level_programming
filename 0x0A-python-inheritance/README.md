@@ -21,20 +21,15 @@ Prototypes for functions written in this project:
 
 
 ## Tasks 📃
-- 0. Bubble sort
-     - [0-bubble_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/0-bubble_sort.c):  C function that sorts an array of integers in ascending order using the Bubble Sort algorithm.
-     - Prints the array after each swap.
-     - [0-O](https://github.com/richard-1257/sorting_algorithms/blob/master/0-O): Text file containing the best, average, and worst case time complexities of the Bubble Sort algorithm, one per line.
+- 0. Lookup
+     - [0-lookup.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0A-python-inheritance/0-lookup.py):  Python function that returns a list of available attributes and methods of an objects.
      
-- 1. Insertion sort
-     - [1-insertion_sort_list.c](https://github.com/richard-1257/sorting_algorithms/blob/master/1-insertion_sort_list.c): C function that sorts a `listint_t` doubly-linked list of integers in ascending order using the Insertion Sort algorithm.
-     - Prints the list after each swap.
-     - [1-O](https://github.com/richard-1257/sorting_algorithms/blob/master/1-O): Text file containing the best, average, and worst case time complexities of the Insertion Sort algorithm, one per line.
+- 1. My list
+     - [1-my_list.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0A-python-inheritance/1-my_list.py): Python class `MyList` that inherits from `list.` Includes:
+       - Public instance method `def print_sorted(self):` that prints the list in ascending sorted order (assumes all list elements are `int`s).
      
-- 2. Selection sort
-     - [2-selection_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/2-selection_sort.c): C function that sorts an array of integers in ascending order using the Selection Sort algorithm.
-     - Prints the array after each swap.
-     - [2-O](https://github.com/richard-1257/sorting_algorithms/blob/master/2-O): Text file containing the best, average, and worst case time complexities of the Selection Sort algorithm, one per line.
+- 2. Exact same object
+     - [2-is_same_class.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0A-python-inheritance/2-is_same_class.py): Python function that returns `True` if an object is exactly an instance of a specified class; otherwise `False.`
 
 - 3. Quick sort
      - [3-quick_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/3-quick_sort.c): C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
