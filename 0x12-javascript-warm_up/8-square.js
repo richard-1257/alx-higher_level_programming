@@ -1,11 +1,11 @@
 #!/usr/bin/node
-const args = process.argv.slice(2);
-const x = parseInt(args[0]);
-
-if (isNaN(x)) {
-  console.log("Missing number of occurrences");
+const size = Math.floor(Number(process.argv[2]));
+if (isNaN(size)) {
+  console.log('Missing size');
 } else {
-  for (let i = 0; i < x; i++) {
-    console.log("C is fun");
+  for (let r = 0; r < size; r++) {
+    let row = '';
+    for (let c = 0; c < size; c++) row += 'X';
+    console.log(row);
   }
 }
