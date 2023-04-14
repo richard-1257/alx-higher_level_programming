@@ -1,3 +1,6 @@
+
+![javascript-warmup](https://user-images.githubusercontent.com/83041703/232050814-07e658ec-f791-4e5a-8dc0-4f6ef0db48f9.jpg)
+
 # JavaScript - Warm up
 
 This was the first JavaScript project I completed at ALX. Tasks involved writing various introductory-level JavaScript scripts on Node.js.
