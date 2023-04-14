@@ -3,6 +3,7 @@
 This was the first JavaScript project I completed at ALX. Tasks involved writing various introductory-level JavaScript scripts on Node.js.
 
 Function Prototypes 💾:
+
 Prototypes for functions written in this project:
 
 | File | Prototype |
@@ -37,13 +38,12 @@ Prototypes for functions written in this project:
 
 - 4. Create a sentence
      - [4-concat.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/4-concat.js): JavaScript script that prints two arguments passed in the format `<arg 1> is <arg 2>.`
-     - Implements the Knuth interval sequence.
-     - Prints the array each time the interval is decreased.
+     - Usage: `./4-concat.js <arg1> <arg2>`
      
-- 5. Cocktail shaker sort
-     - [101-cocktail_sort_list.c](https://github.com/richard-1257/sorting_algorithms/blob/master/101-cocktail_sort_list.c): C function that sorts a `listint_t` doubly-linked list of integers in ascending order using the Cocktail Shaker Sort algorithm.
-     - Prints the list after each swap.
-     - [101-O](https://github.com/richard-1257/sorting_algorithms/blob/master/101-O): Text file containing the best, average, and worst case time complexities of the Cocktail Shaker Sort algorithm, one per line.
+- 5. An Integer
+     - [5-to_integer.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/5-to_integer.js): JavaScript script that prints `My number: <first argument converted in integer>` if the first pased argument can be converted to an integer.
+     - Usage: `./5-to_integer.js`
+     - If the argument cannot be converted to an integer, prints `'Not a number'`.
      
 - 6. Counting sort
      - [102-counting_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/102-counting_sort.c): C function that sorts an array of integers in ascending order using the Counting Sort algorithm.
