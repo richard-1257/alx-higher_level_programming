@@ -63,30 +63,72 @@ Prototypes for functions written in this project:
      - If the first argument cannot be converted to a number, prints `'Missing size'.`
      - Uses the `X` character to print the square.
      
-- 9. Radix sort
-     -[105-radix_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/105-radix_sort.c): C function that sorts an array of integers in ascending order using the Radix Sort algorithm.
-     - Implements the Least-Significant-Digit (LSD) Radix Sort algorithm.
-     - Assumes that the array will only contain numbers `>= 0`.
-     - Prints the array for each significant digit increase.
-     - [105-O](https://github.com/richard-1257/sorting_algorithms/blob/master/105-O): Text file containing the best, average, and worst case time complexities of the Radix Sort algorithm, one per line.
+- 9. Add
+     -[9-add.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/9-add.js): JavaScript script that prints the addition of two numbers passed as arguments.
+     - Usage: `./9-add.js <number 1> <number 2>`
+     -Prototype: `function add(a, b)`
      
-- 10. Bitonic sort
-      - [106-bitonic_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/106-bitonic_sort.c):  C function that sorts an array of integers in ascending order using the Bitonic Sort algorithm.
-      - Assumes that `size` is a power of 2 (ie. `size` can be expressed as `2^k` where `k >= 0`).
-      - Prints subarrays each time they are merged.
-      - [106-O](https://github.com/richard-1257/sorting_algorithms/blob/master/106-O): Text file containing the best, average, and worst case time complexities of the Bitonic Sort algorithm, one per line.
+- 10. Factorial
+      - [10-factorial.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/10-factorial.js): JavaScript script that computes and prints a factorial.
+      - Usage: `./10-factorial.js <number to compute factorial of>`
       
-- 11. Quick Sort - Hoare Partition scheme
-      - [107-quick_sort_hoare.c](https://github.com/richard-1257/sorting_algorithms/blob/master/107-quick_sort_hoare.c): C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
-      - Implements the Hoare partition scheme.
-      - Always uses the last elemement of the partition being sorted as the pivot.
-      - Prints the array after each swap.
-      - [107-O](https://github.com/richard-1257/sorting_algorithms/blob/master/107-O): Text file containing the best, average, and worst case time complexities of the Quick Sort Hoare Partition cheme algorithm, one per line.
+- 11. Second biggest!
+      - [11-second_biggest.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/11-second_biggest.js): JavaScript script that locates the second largest number in the list of provided arguments.
+      - Usage: `./11-second_biggest.js <arg 1> <arg 2> ...`
+      - If no arguments are passed or the number of arguments is `1,` prints `0.`
       
-- 12. Dealer
-      - [1000-sort_deck.c](https://github.com/richard-1257/sorting_algorithms/blob/master/1000-sort_deck.c): C function that sorts a `deck_node_t` doubly-linked list deck of cards.
-      - Assumes that there are exactly 52 elements in the doubly-linked list.
-      - Orders the deck from spades to diamonds and from aces to kings.
-      
-# Authors
-<details><summary>Richard ifeanyi</summary>
+- 12. Object
+      - [12-object.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/12-object.js): Update of the following script that replaces the value `12` with `89.`
+
+```
+#!/usr/bin/node
+const myObject = {
+  type: 'object',
+  value: 12
+};
+console.log(myObject);
+/*
+YOUR CODE HERE
+*/
+console.log(myObject);
+```
+
+- 13. Add file
+     - [13-add.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/13-add.js): JavaScript function `add` that returns the addition of two numbers.
+     
+- 14. Const or not const
+     - [100-let_me_const.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/100-let_me_const.js): JavaScript script that modifies the value of `myVar` in the following file to `333.`
+
+```
+#!/usr/bin/node
+myVar = 89;
+require('./100-let_me_const')
+console.log(myVar);
+```
+
+- 15. Call me Moby
+     - [101-call_me_moby.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/101-call_me_moby.js): JavaScript function that executes `x` times a given function.
+     
+- 16. Add me maybe
+     - [102-add_me_maybe.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/102-add_me_maybe.js): JavaScript function that increments a given number and calls a given function.
+
+- 17. Increment object
+     - [103-object_fct.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/103-object_fct.js): Update of the following JavaScript script adding a new function `incr` that increments the number `value.`
+
+```
+#!/usr/bin/node
+let myObject = {
+  type: 'object',
+  value: 12
+};
+console.log(myObject);
+/*
+YOUR CODE HERE
+*/
+myObject.incr();
+console.log(myObject);
+myObject.incr();
+console.log(myObject);
+myObject.incr();
+console.log(myObject);
+```
