@@ -2,7 +2,7 @@
 
 This was the first JavaScript project I completed at ALX. Tasks involved writing various introductory-level JavaScript scripts on Node.js.
 
-Function Prototypes 💾:
+## Function Prototypes 💾:
 
 Prototypes for functions written in this project:
 
@@ -45,25 +45,23 @@ Prototypes for functions written in this project:
      - Usage: `./5-to_integer.js`
      - If the argument cannot be converted to an integer, prints `'Not a number'`.
      
-- 6. Counting sort
-     - [102-counting_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/102-counting_sort.c): C function that sorts an array of integers in ascending order using the Counting Sort algorithm.
-     - Assumes that the array will only contain numbers `>= 0`.
-     - Prints the counting array after it has been initialized.
-     - [102-O](https://github.com/richard-1257/sorting_algorithms/blob/master/102-O): Text file containing the best, average, and worst case time complexities of the Counting Sort algorithm, one per line.
+- 6. Loop to languages
+     - [6-multi_languages_loop.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/6-multi_languages_loop.js): JavaScript script that prints three lines using an array and a loop.
+     - Usage: `./6-multi_languages_loop.js`
+     - First line: `'C is fun'`.
+     - Second line: `'Python is cool'`.
+     - Third line: `'Javascript is awesome'`.
      
-- 7. Merge sort
-     - [103-merge_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/103-merge_sort.c): C function that sorts an array of integers in ascending order using the Merge Sort algorithm.
-     - Implements the `top-down` Merge Sort algorithm
-         - When an array is divided, the size of the left subarray is always less than or equal to the size of the right subarray.
-         - Always sorts the left subarray before the right one.
-     - Prints subarrays each time they are merged.
-     - [103-O](https://github.com/richard-1257/sorting_algorithms/blob/master/103-O): Text file containing the best, average, and worst case time complexities of the Merge Sort algorithm, one per line.
+- 7. I love C
+     - [7-multi_c.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/7-multi_c.js): JavaScript script that prints `x` times `'C is fun'`.
+     - Usage: `./7-multi_c.js <x>`
+     - If the first argument cannot be converted to a number, prints `'Missing number of occurrences'.`
 
-- 8. Heap sort
-     - [104-heap_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/104-heap_sort.c): C function that sorts an array of integers in ascending order using the Heap Sort algorithm.
-     - Implements the `sift-down` Heap Sort algorithm.
-     - Prints the array after each swap.
-     - [104-O](https://github.com/richard-1257/sorting_algorithms/blob/master/104-O): Text file containing the best, average, and worst case time complexiites of the Heap Sort algorithm, one per line.
+- 8. Square
+     - [8-square.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/8-square.js): JavaScript script that prints a square.
+     - Usage: `./8-square.js <size>`
+     - If the first argument cannot be converted to a number, prints `'Missing size'.`
+     - Uses the `X` character to print the square.
      
 - 9. Radix sort
      -[105-radix_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/105-radix_sort.c): C function that sorts an array of integers in ascending order using the Radix Sort algorithm.
