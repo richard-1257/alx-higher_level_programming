@@ -15,27 +15,27 @@ In this project, I learned about how object-relational mapping is used for datab
      - Usage: `./1-filter_states.py <mysql username> <mysql password> <database name>`.
      - Results are ordered by ascending `states.id`.
      
-- 2. Selection sort
-     - [2-selection_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/2-selection_sort.c): C function that sorts an array of integers in ascending order using the Selection Sort algorithm.
-     - Prints the array after each swap.
-     - [2-O](https://github.com/richard-1257/sorting_algorithms/blob/master/2-O): Text file containing the best, average, and worst case time complexities of the Selection Sort algorithm, one per line.
+- 2. Filter states by user input
+     - [2-my_filter_states.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/2-my_filter_states.py): Python script that uses MySQLdb to display all values matching a given name in the `states` table of the database `hbtn_0e_0_usa`.
+     - Usage: `./2-my_filter_states.py <mysql username> <mysql password> <database name> <state name searched>`.
+     - Results are ordered by ascending `states.id`.
+     - Uses string formatting to construct the SQL query.
 
-- 3. Quick sort
-     - [3-quick_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/3-quick_sort.c): C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
-     - Implements the Lomuto partition scheme.
-     - Always uses the last element of the partition being sorted as the pivot.
-     - Prints the array after each swap.
-     -[3-O](https://github.com/richard-1257/sorting_algorithms/blob/master/3-O): Text file containing the best, average, and worst case time complexities of the Quick Sort Lomuto Partition scheme algorithm, one per line.
+- 3. SQL Injection...
+     - [3-my_safe_filter_states.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/3-my_safe_filter_states.py): Python script that uses MySQLdb to display all values matching a given name in the `states` table of the database `hbtn_0e_0_usa`.
+     - Usage: `./3-my_safe_filter_states.py <mysql username> <mysql password> <database name> <state name searched>`.
+     - Results are ordered by ascending `states.id`.
+     - Safe from SQL injections.
 
-- 4. Shell sort - Knuth Sequence
-     - [100-shell_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/100-shell_sort.c): C function that sorts an array of integers in ascending order using the Shell sort algorithm.
-     - Implements the Knuth interval sequence.
-     - Prints the array each time the interval is decreased.
+- 4. Cities by states
+     - [4-cities_by_state.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/4-cities_by_state.py): Python script that uses MySQLdb to list all cities from the database `hbtn_0e_4_usa`.
+     - Usage: `./4-cities_by_state.py <mysql username> <mysql password> <database name>`.
+     - Results are ordered by ascending `cities.id`.
      
-- 5. Cocktail shaker sort
-     - [101-cocktail_sort_list.c](https://github.com/richard-1257/sorting_algorithms/blob/master/101-cocktail_sort_list.c): C function that sorts a `listint_t` doubly-linked list of integers in ascending order using the Cocktail Shaker Sort algorithm.
-     - Prints the list after each swap.
-     - [101-O](https://github.com/richard-1257/sorting_algorithms/blob/master/101-O): Text file containing the best, average, and worst case time complexities of the Cocktail Shaker Sort algorithm, one per line.
+- 5. All cities by state
+     - [5-filter_cities.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/5-filter_cities.py): Python script that uses MySQLdb to list all cities of a given state in the database `hbtn_0e_4_usa`.
+     - Usage: `./5-filter_cities.py <mysql username> <mysql password> <database name>`.
+     - Results are sorted by ascending `cities.id`.
      
 - 6. Counting sort
      - [102-counting_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/102-counting_sort.c): C function that sorts an array of integers in ascending order using the Counting Sort algorithm.
