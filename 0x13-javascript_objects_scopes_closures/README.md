@@ -8,60 +8,15 @@ Prototypes for functions written in this project:
 
 | File | Prototype |
 | ---- | --------- |
-| `print_array.c` | `void print_array(const int *array, size_t size)` |
-| `print_list.c` |`void print_list(const listint_t *list)` |
-| `0-bubble_sort.c` | `0-bubble_sort.c	void bubble_sort(int *array, size_t size);` |
-| `1-insertion_sort_list.c` | `void insertion_sort_list(listint_t **list);` |
-| `2-selection-sort.c` | `void selection_sort(int *array, size_t size);` |
-| `3-quick_sort.c` | `void quick_sort(int *array, size_t size);` |
-| `100-shell_sort.c` | `void shell_sort(int *array, size_t size);` |
-| `101-cocktail_sort_list.c` | `void cocktail_sort_list(listint_t **list);` |
-| `102-counting_sort.c` | `void counting_sort(int *array, size_t size);` |
-| `103-merge_sort.c` | `void merge_sort(int *array, size_t size);` |
-| `104-heap_sort.c` | `void heap_sort(int *array, size_t size);` |
-| `105-radix_sort.c` | `void radix_sort(int *array, size_t size);` |
-| `106-bitonic_sort.c` | `void bitonic_sort(int *array, size_t size);` |
-| `107-quick_sort_hoare.c` | `void quick_sort_hoare(int *array, size_t size);` |
-
-
-- [deck.h](https://github.com/richard-1257/sorting_algorithms/blob/master/deck.h): Header file containing definitions and prototypes for all types and functions written for the task `1000-sort_deck.c`.
-
-Data Structures:
-
-```python
-typedef enum kind_e
-{
-	SPADE = 0,
-	HEART,
-	CLUB,
-	DIAMOND
-} kind_t;
-
-typedef struct card_s
-{
-	const char *value;
-	const kind_t kind;
-} card_t;
-
-typedef struct deck_node_s
-{
-	const card_t *card;
-	struct deck_node_s *prev;
-	struct deck_node_s *next;
-} deck_node_t;
-```
-
-Function Prototype:
-| File | Prototype |
-| ------------- | ------------- |
-| `1000-deck_node.c` | `void sort_deck(deck_node_t **deck);` |
+| `7-occurrences.js` | `exports.nbOccurences = function (list, searchElement)` |
+| `8-esrever.js` |`exports.esrever = function (list)` |
+| `9-logme.js` | `exports.logMe = function (item)` |
+| `10-converter.js` | `exports.converter = function (base)` |
 
 
 ## Tasks 📃
 - 0. Bubble sort
-     - [0-bubble_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/0-bubble_sort.c):  C function that sorts an array of integers in ascending order using the Bubble Sort algorithm.
-     - Prints the array after each swap.
-     - [0-O](https://github.com/richard-1257/sorting_algorithms/blob/master/0-O): Text file containing the best, average, and worst case time complexities of the Bubble Sort algorithm, one per line.
+     - [0-rectangle.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/0-rectangle.js): JavaScript script that defines an empty class `Rectangle.`
      
 - 1. Insertion sort
      - [1-insertion_sort_list.c](https://github.com/richard-1257/sorting_algorithms/blob/master/1-insertion_sort_list.c): C function that sorts a `listint_t` doubly-linked list of integers in ascending order using the Insertion Sort algorithm.
