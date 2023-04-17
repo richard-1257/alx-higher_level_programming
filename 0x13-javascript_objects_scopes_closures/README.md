@@ -18,27 +18,22 @@ Prototypes for functions written in this project:
 - 0. Rectangle #0
      - [0-rectangle.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/0-rectangle.js): JavaScript script that defines an empty class `Rectangle.`
      
-- 1. Insertion sort
-     - [1-insertion_sort_list.c](https://github.com/richard-1257/sorting_algorithms/blob/master/1-insertion_sort_list.c): C function that sorts a `listint_t` doubly-linked list of integers in ascending order using the Insertion Sort algorithm.
-     - Prints the list after each swap.
-     - [1-O](https://github.com/richard-1257/sorting_algorithms/blob/master/1-O): Text file containing the best, average, and worst case time complexities of the Insertion Sort algorithm, one per line.
+- 1. Rectangle #1
+     - [1-rectangle.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/1-rectangle.js): JavaScript script that defines a class Rectangle. Builds on [0-rectangle.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/0-rectangle.js) with:
+     - Constructor that initializes instance attributes `width` and `height` with given parameters `w` and `h.`
      
-- 2. Selection sort
-     - [2-selection_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/2-selection_sort.c): C function that sorts an array of integers in ascending order using the Selection Sort algorithm.
-     - Prints the array after each swap.
-     - [2-O](https://github.com/richard-1257/sorting_algorithms/blob/master/2-O): Text file containing the best, average, and worst case time complexities of the Selection Sort algorithm, one per line.
+- 2. Rectangle #2
+     - [2-rectangle.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/2-rectangle.js): JavaScript script that defines a class Rectangle. Builds on [1-rectangle.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/1-rectangle.js) with:
+     - If provided `w` and `h` are less than or equal to `0`, creates an empty object.
 
-- 3. Quick sort
-     - [3-quick_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/3-quick_sort.c): C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
-     - Implements the Lomuto partition scheme.
-     - Always uses the last element of the partition being sorted as the pivot.
-     - Prints the array after each swap.
-     -[3-O](https://github.com/richard-1257/sorting_algorithms/blob/master/3-O): Text file containing the best, average, and worst case time complexities of the Quick Sort Lomuto Partition scheme algorithm, one per line.
+- 3. Rectangle #3
+     - [3-rectangle.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/3-rectangle.js): JavaScript script that defines a class Rectangle. Builds on [3-rectangle.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/3-rectangle.js) with:
+     - Instance method print() that `prints` the rectangle using the `X` character.
 
-- 4. Shell sort - Knuth Sequence
-     - [100-shell_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/100-shell_sort.c): C function that sorts an array of integers in ascending order using the Shell sort algorithm.
-     - Implements the Knuth interval sequence.
-     - Prints the array each time the interval is decreased.
+- 4. Rectangle #4
+     - [4-rectangle.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/4-rectangle.js): JavaScript script that defines a class Rectangle. Builds on [4-rectangle.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/4-rectangle.js) with:
+     - Instance method `rotate()` that swaps the `width` and `height` of the `Rectangle.`
+     - Instance method `double()` that multiplies the `width` and `height` of the `Rectangle` by `2.`
      
 - 5. Cocktail shaker sort
      - [101-cocktail_sort_list.c](https://github.com/richard-1257/sorting_algorithms/blob/master/101-cocktail_sort_list.c): C function that sorts a `listint_t` doubly-linked list of integers in ascending order using the Cocktail Shaker Sort algorithm.
