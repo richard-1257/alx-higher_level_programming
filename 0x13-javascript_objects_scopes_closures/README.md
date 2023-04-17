@@ -15,7 +15,7 @@ Prototypes for functions written in this project:
 
 
 ## Tasks 📃
-- 0. Bubble sort
+- 0. Rectangle #0
      - [0-rectangle.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/0-rectangle.js): JavaScript script that defines an empty class `Rectangle.`
      
 - 1. Insertion sort
