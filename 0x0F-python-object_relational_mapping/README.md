@@ -37,50 +37,68 @@ In this project, I learned about how object-relational mapping is used for datab
      - Usage: `./5-filter_cities.py <mysql username> <mysql password> <database name>`.
      - Results are sorted by ascending `cities.id`.
      
-- 6. Counting sort
-     - [102-counting_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/102-counting_sort.c): C function that sorts an array of integers in ascending order using the Counting Sort algorithm.
-     - Assumes that the array will only contain numbers `>= 0`.
-     - Prints the counting array after it has been initialized.
-     - [102-O](https://github.com/richard-1257/sorting_algorithms/blob/master/102-O): Text file containing the best, average, and worst case time complexities of the Counting Sort algorithm, one per line.
+- 6. First state model
+     - [model_state.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/model_state.py): Python module defining a class `State` that inherits from SQLAlchemy `Base` and links to the MySQL table `states`.
      
-- 7. Merge sort
-     - [103-merge_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/103-merge_sort.c): C function that sorts an array of integers in ascending order using the Merge Sort algorithm.
-     - Implements the `top-down` Merge Sort algorithm
-         - When an array is divided, the size of the left subarray is always less than or equal to the size of the right subarray.
-         - Always sorts the left subarray before the right one.
-     - Prints subarrays each time they are merged.
-     - [103-O](https://github.com/richard-1257/sorting_algorithms/blob/master/103-O): Text file containing the best, average, and worst case time complexities of the Merge Sort algorithm, one per line.
+- 7. All states via SQLAlchemy
+     - [7-model_state_fetch_all.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/7-model_state_fetch_all.py): Python script that uses SQLAlchemy to list all `State` objects from the database `hbtn_0e_6_usa`.
+     - Usage: `./7-model_state_fetch_all.py <mysql username> <mysql password> <database name>`.
+     - Results are sorted by ascending `states.id`.
 
-- 8. Heap sort
-     - [104-heap_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/104-heap_sort.c): C function that sorts an array of integers in ascending order using the Heap Sort algorithm.
-     - Implements the `sift-down` Heap Sort algorithm.
-     - Prints the array after each swap.
-     - [104-O](https://github.com/richard-1257/sorting_algorithms/blob/master/104-O): Text file containing the best, average, and worst case time complexiites of the Heap Sort algorithm, one per line.
+- 8. First state
+     - [8-model_state_fetch_first.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/8-model_state_fetch_first.py): Python script that uses SQLAlchemy to print the first `State` object from the database `hbtn_0e_6_usa`, ordered by `states.id`.
+     - Usage: `./8-model_state_fetch_first.py <mysql username> <mysql password> <database name>`.
+     - If the `states` table is empty, prints `Nothing`.
      
-- 9. Radix sort
-     -[105-radix_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/105-radix_sort.c): C function that sorts an array of integers in ascending order using the Radix Sort algorithm.
-     - Implements the Least-Significant-Digit (LSD) Radix Sort algorithm.
-     - Assumes that the array will only contain numbers `>= 0`.
-     - Prints the array for each significant digit increase.
-     - [105-O](https://github.com/richard-1257/sorting_algorithms/blob/master/105-O): Text file containing the best, average, and worst case time complexities of the Radix Sort algorithm, one per line.
+- 9. Contains `a`
+     -[9-model_state_filter_a.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/9-model_state_filter_a.py): Python script that uses SQLAlchemy to list all `State` objects that contain the letter `a` in the database `hbtn_0e_6_usa`.
+     - Usage: `./9-model_state_filter_a.py <mysql username> <mysql password> <database name>`.
+     - Results are ordered by ascending `states.id`.
      
-- 10. Bitonic sort
-      - [106-bitonic_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/106-bitonic_sort.c):  C function that sorts an array of integers in ascending order using the Bitonic Sort algorithm.
-      - Assumes that `size` is a power of 2 (ie. `size` can be expressed as `2^k` where `k >= 0`).
-      - Prints subarrays each time they are merged.
-      - [106-O](https://github.com/richard-1257/sorting_algorithms/blob/master/106-O): Text file containing the best, average, and worst case time complexities of the Bitonic Sort algorithm, one per line.
+- 10. Get a state
+      - [10-model_state_my_get.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/10-model_state_my_get.py): Python script that uses SQLAlchemy to print the `id` of the `State` object with name matching that passed as argument in the database `hbtn_0e_6_usa`.
+      - Usage: `./10-model_state_my_get.py <mysql username> <mysql password> <database name> <state searched name>`.
+      - Displays the `id` of the matched `State`.
+      - If no match is found, prints `Not found`.
       
-- 11. Quick Sort - Hoare Partition scheme
-      - [107-quick_sort_hoare.c](https://github.com/richard-1257/sorting_algorithms/blob/master/107-quick_sort_hoare.c): C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
-      - Implements the Hoare partition scheme.
-      - Always uses the last elemement of the partition being sorted as the pivot.
-      - Prints the array after each swap.
-      - [107-O](https://github.com/richard-1257/sorting_algorithms/blob/master/107-O): Text file containing the best, average, and worst case time complexities of the Quick Sort Hoare Partition cheme algorithm, one per line.
+- 11. Add a new state
+      - [11-model_state_insert.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/11-model_state_insert.py): Python script that uses SQLAlchemy to add the `State` object "Louisiana" to the database `hbtn_0e_6_usa`.
+      - Usage: `./11-model_state_insert.py <mysql username> <mysql password> <database name>`.
+      - Prints the `id` of the new `State` after creation.
       
-- 12. Dealer
-      - [1000-sort_deck.c](https://github.com/richard-1257/sorting_algorithms/blob/master/1000-sort_deck.c): C function that sorts a `deck_node_t` doubly-linked list deck of cards.
-      - Assumes that there are exactly 52 elements in the doubly-linked list.
-      - Orders the deck from spades to diamonds and from aces to kings.
-      
-# Authors
-<details><summary>Richard ifeanyi</summary>
+- 12. Update a state
+      - [12-model_state_update_id_2.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/12-model_state_update_id_2.py): Python script that uses SQLAlchemy to change the name of the `State` object with `id = 2` in the database `hbtn_0e_6_usa` to "New Mexico"
+      - Usage: `./12-model_state_update_id_2.py <mysql username> <mysql password> <database name>`.
+
+- 13. Delete states
+     - [13-model_state_delete_a.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/13-model_state_delete_a.py): Python script that uses SQLAlchemy to delete all `State` objects with a name containing the letter `a` from the database `hbtn_0e_6_usa`.
+     - Usage: `./13-model_state_delete_a.py <mysql username> <mysql password> <database name>`.
+     
+- 14. Cities in state
+     - [model_city.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/model_city.py): Python module defining a class `City` that inherits from SQLAlchemy `Base` and links to the MySQL table `cities`
+       - Includes class attribute `state_id` that is a foreign key to `states.id`. 
+     - [14-model_city_fetch_by_state.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/14-model_city_fetch_by_state.py): Python script that uses SQLAlchemy to list all `City` objects in the database `hbtn_0e_14_usa`.
+     - Usage: `./14-model_city_fetch_by_state.py <mysql username> <mysql password> <database name>`.
+     - Results are sorted by ascending `cities.id`.
+     
+- 15. City relationship
+     - [relationship_state.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/relationship_state.py): Python module defining a class `State` that inherits from SQLAlchemy `Base` and links to the MySQL table `states`.
+       - Identical to the `State` class defined in [model_state.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/model_state.py)
+       - Includes class attribute `classes` that represents a relationship with the class `City`. If the `State` object is deleted, all linked `City` objects are also deleted. `State` objects are backreferenced to `City` objects as `state`.
+     - [relationship_city.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/relationship_city.py): Python module defining a class `City` that inherits from SQLAlchemy `Base` and links to the MySQL table `cities`.
+       - Identical to the `City` class defined in [model_city.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/model_city.py) 
+     - [100-relationship_states_cities.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/100-relationship_states_cities.py): Python script that uses SQLAlchemy to add the `State` "California" with `City` "San Francisco" to the database `hbtn_0e_100_usa`.
+     - Usage: `./100-relationship_states_cities.py <mysql username> <mysql password> <database name>`.
+     - Uses the `cities` relationship for all `State` objects.
+
+- 16. List relationship
+     - [101-relationship_states_cities_list.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/101-relationship_states_cities_list.py): Python script that uses SQLAlchemy to list all `State` and corresponding `City` objects in the database `hbtn_0e_101_usa`.
+     - Usage: `./101-relationship_states_cities_list.py <mysql username> <mysql password> <database name>`.
+     - Uses the `cities` relationship for all `State` objects.
+     - Results are sorted by ascending `states.id` and `cities.id`.
+     
+- 17. List city
+     -[102-relationship_cities_states_list.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/102-relationship_cities_states_list.py): Python script that uses SQLAlchemy to list all `City` objects from the database `hbtn_0e_101_usa`.
+     - Usage: `./102-relationship_cities_states_list.py <mysql username> <mysql password> <database name>`.
+     - Uses the `state` relationship to access the `State` objects linked to `City` objects.
+     - Results are sorted by ascending `cities.id`.
