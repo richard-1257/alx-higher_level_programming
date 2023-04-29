@@ -22,61 +22,21 @@ NOTE: The `curl` behavior in all Bash scripts were written to interact with a se
 - 3. cURL only methods
      - [3-methods.sh](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x10-python-network_0/3-methods.sh): Bash script that displays all HTTP methods the server of a given URL will accept.
 
-- 4. Shell sort - Knuth Sequence
-     - [100-shell_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/100-shell_sort.c): C function that sorts an array of integers in ascending order using the Shell sort algorithm.
-     - Implements the Knuth interval sequence.
-     - Prints the array each time the interval is decreased.
+- 4. cURL headers
+     - [4-header.sh](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x10-python-network_0/4-header.sh): Bash script that sends a `GET` request to a given URL with a header variable `X-School-User-Id=98` and displays the response body.
      
-- 5. Cocktail shaker sort
-     - [101-cocktail_sort_list.c](https://github.com/richard-1257/sorting_algorithms/blob/master/101-cocktail_sort_list.c): C function that sorts a `listint_t` doubly-linked list of integers in ascending order using the Cocktail Shaker Sort algorithm.
-     - Prints the list after each swap.
-     - [101-O](https://github.com/richard-1257/sorting_algorithms/blob/master/101-O): Text file containing the best, average, and worst case time complexities of the Cocktail Shaker Sort algorithm, one per line.
+- 5. cURL POST parameters
+     - [5-params.sh](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x10-python-network_0/5-post_params.sh): Bash script that sends a `POST` request to a given URL with the variables `email=test@gmail.com` and `subject=I will always be here for PLD` and displays the response body.
      
-- 6. Counting sort
-     - [102-counting_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/102-counting_sort.c): C function that sorts an array of integers in ascending order using the Counting Sort algorithm.
-     - Assumes that the array will only contain numbers `>= 0`.
-     - Prints the counting array after it has been initialized.
-     - [102-O](https://github.com/richard-1257/sorting_algorithms/blob/master/102-O): Text file containing the best, average, and worst case time complexities of the Counting Sort algorithm, one per line.
+- 6. Find a peak
+     - [6-peak.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x10-python-network_0/6-peak.py): [Technical interview preparation] - Python program that finds a peak in a list of unsorted integers.
+     - [6-peak.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x10-python-network_0/6-peak.txt): Text file containing the complexity of the algorithm.
      
-- 7. Merge sort
-     - [103-merge_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/103-merge_sort.c): C function that sorts an array of integers in ascending order using the Merge Sort algorithm.
-     - Implements the `top-down` Merge Sort algorithm
-         - When an array is divided, the size of the left subarray is always less than or equal to the size of the right subarray.
-         - Always sorts the left subarray before the right one.
-     - Prints subarrays each time they are merged.
-     - [103-O](https://github.com/richard-1257/sorting_algorithms/blob/master/103-O): Text file containing the best, average, and worst case time complexities of the Merge Sort algorithm, one per line.
+- 7. Only status code
+     - [100-status_code.sh](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x10-python-network_0/100-status_code.sh): Bash script that sends a `GET` request to a given URL without using pipes, redirections, `;`, or `&&` and displays the status code of the response.
 
-- 8. Heap sort
-     - [104-heap_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/104-heap_sort.c): C function that sorts an array of integers in ascending order using the Heap Sort algorithm.
-     - Implements the `sift-down` Heap Sort algorithm.
-     - Prints the array after each swap.
-     - [104-O](https://github.com/richard-1257/sorting_algorithms/blob/master/104-O): Text file containing the best, average, and worst case time complexiites of the Heap Sort algorithm, one per line.
+- 8. cURL a JSON file
+     - [101-post_json.sh](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x10-python-network_0/101-post_json.sh): Bash script that sends a JSON `POST` request with the contents of a provided file to a given URL, and displays the response body.
      
-- 9. Radix sort
-     -[105-radix_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/105-radix_sort.c): C function that sorts an array of integers in ascending order using the Radix Sort algorithm.
-     - Implements the Least-Significant-Digit (LSD) Radix Sort algorithm.
-     - Assumes that the array will only contain numbers `>= 0`.
-     - Prints the array for each significant digit increase.
-     - [105-O](https://github.com/richard-1257/sorting_algorithms/blob/master/105-O): Text file containing the best, average, and worst case time complexities of the Radix Sort algorithm, one per line.
-     
-- 10. Bitonic sort
-      - [106-bitonic_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/106-bitonic_sort.c):  C function that sorts an array of integers in ascending order using the Bitonic Sort algorithm.
-      - Assumes that `size` is a power of 2 (ie. `size` can be expressed as `2^k` where `k >= 0`).
-      - Prints subarrays each time they are merged.
-      - [106-O](https://github.com/richard-1257/sorting_algorithms/blob/master/106-O): Text file containing the best, average, and worst case time complexities of the Bitonic Sort algorithm, one per line.
-      
-- 11. Quick Sort - Hoare Partition scheme
-      - [107-quick_sort_hoare.c](https://github.com/richard-1257/sorting_algorithms/blob/master/107-quick_sort_hoare.c): C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
-      - Implements the Hoare partition scheme.
-      - Always uses the last elemement of the partition being sorted as the pivot.
-      - Prints the array after each swap.
-      - [107-O](https://github.com/richard-1257/sorting_algorithms/blob/master/107-O): Text file containing the best, average, and worst case time complexities of the Quick Sort Hoare Partition cheme algorithm, one per line.
-      
-- 12. Dealer
-      - [1000-sort_deck.c](https://github.com/richard-1257/sorting_algorithms/blob/master/1000-sort_deck.c): C function that sorts a `deck_node_t` doubly-linked list deck of cards.
-      - Assumes that there are exactly 52 elements in the doubly-linked list.
-      - Orders the deck from spades to diamonds and from aces to kings.
-      
-# Authors
-<details><summary>Richard ifeanyi</summary>
-
+- 9. Catch me if you can!
+     -[102-catch_me.sh](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x10-python-network_0/102-catch_me.sh): Bash script that sends a request to `0.0.0.0:5000/catch_me` that causes the server to respond with a message containing `You got me!` in the repsonse body.
