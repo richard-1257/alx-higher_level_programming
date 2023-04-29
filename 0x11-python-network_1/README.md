@@ -13,10 +13,10 @@ This project involved learning how to use the `urllib` and `requests` Python lib
      - Usage: `./1-hbtn_header.py <URL>`
        - Uses `urllib.`
      
-- 3. Error code #0
-     - [2-selection_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/2-selection_sort.c): C function that sorts an array of integers in ascending order using the Selection Sort algorithm.
-     - Prints the array after each swap.
-     - [2-O](https://github.com/richard-1257/sorting_algorithms/blob/master/2-O): Text file containing the best, average, and worst case time complexities of the Selection Sort algorithm, one per line.
+- 2. POST an email #0
+     - [2-post_email.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x11-python-network_1/2-post_email.py): Python script that sends a POST request to a given URL with a given email, and displays the response body.
+     - Usage: `./2-post_email.py <URL> <email>`
+       - Uses `urllib`.
 
 - 3. Quick sort
      - [3-quick_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/3-quick_sort.c): C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
