@@ -8,12 +8,12 @@ This project involved learning how to use the `urllib` and `requests` Python lib
      - [0-hbtn_status.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x11-python-network_1/0-hbtn_status.py):  Python script that fetches `https://intranet.hbtn.io/status`.
      - Uses `urllib`.
      
-- 1. Insertion sort
-     - [1-insertion_sort_list.c](https://github.com/richard-1257/sorting_algorithms/blob/master/1-insertion_sort_list.c): C function that sorts a `listint_t` doubly-linked list of integers in ascending order using the Insertion Sort algorithm.
-     - Prints the list after each swap.
-     - [1-O](https://github.com/richard-1257/sorting_algorithms/blob/master/1-O): Text file containing the best, average, and worst case time complexities of the Insertion Sort algorithm, one per line.
+- 1. Response header value #0
+     - [1-hbtn_header.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x11-python-network_1/1-hbtn_header.py): Python script that displays the `X-Request-Id` response header variable of a request to a given URL.
+     - Usage: `./1-hbtn_header.py <URL>`
+       - Uses `urllib.`
      
-- 2. Selection sort
+- 3. Error code #0
      - [2-selection_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/2-selection_sort.c): C function that sorts an array of integers in ascending order using the Selection Sort algorithm.
      - Prints the array after each swap.
      - [2-O](https://github.com/richard-1257/sorting_algorithms/blob/master/2-O): Text file containing the best, average, and worst case time complexities of the Selection Sort algorithm, one per line.
