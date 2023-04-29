@@ -42,36 +42,20 @@ This project involved learning how to use the `urllib` and `requests` Python lib
      - Handles HTTP errors
          - Uses `requests`.
 
-- 8. Heap sort
-     - [104-heap_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/104-heap_sort.c): C function that sorts an array of integers in ascending order using the Heap Sort algorithm.
-     - Implements the `sift-down` Heap Sort algorithm.
-     - Prints the array after each swap.
-     - [104-O](https://github.com/richard-1257/sorting_algorithms/blob/master/104-O): Text file containing the best, average, and worst case time complexiites of the Heap Sort algorithm, one per line.
+- 8. Search API
+     - [8-json_api.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x11-python-network_1/8-json_api.py): Python script that sends a `POST` request to `http://0.0.0.0:5000/search_user` with a letter passed as parameter.
+     - Usage: `./8-json_api.py <letter>`
+       - The letter is sent as the value of the variable `q`.
+       - If no letter is given, sets `q=""`.
+       - - If the response body is properly formatted and non-empty, displays it as `[<id>] <name>`.
+     - Uses `requests`.
      
-- 9. Radix sort
-     -[105-radix_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/105-radix_sort.c): C function that sorts an array of integers in ascending order using the Radix Sort algorithm.
-     - Implements the Least-Significant-Digit (LSD) Radix Sort algorithm.
-     - Assumes that the array will only contain numbers `>= 0`.
-     - Prints the array for each significant digit increase.
-     - [105-O](https://github.com/richard-1257/sorting_algorithms/blob/master/105-O): Text file containing the best, average, and worst case time complexities of the Radix Sort algorithm, one per line.
+- 9. My Github!
+     -[10-my_github.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x11-python-network_1/10-my_github.py): Python script that takes GitHub credentials (username and password) and uses the Github API to display the corresponding ID.
+     - Usage: `./10-my_github.py <username> <password>`
+       - Uses `requests`.
      
-- 10. Bitonic sort
-      - [106-bitonic_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/106-bitonic_sort.c):  C function that sorts an array of integers in ascending order using the Bitonic Sort algorithm.
-      - Assumes that `size` is a power of 2 (ie. `size` can be expressed as `2^k` where `k >= 0`).
-      - Prints subarrays each time they are merged.
-      - [106-O](https://github.com/richard-1257/sorting_algorithms/blob/master/106-O): Text file containing the best, average, and worst case time complexities of the Bitonic Sort algorithm, one per line.
-      
-- 11. Quick Sort - Hoare Partition scheme
-      - [107-quick_sort_hoare.c](https://github.com/richard-1257/sorting_algorithms/blob/master/107-quick_sort_hoare.c): C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
-      - Implements the Hoare partition scheme.
-      - Always uses the last elemement of the partition being sorted as the pivot.
-      - Prints the array after each swap.
-      - [107-O](https://github.com/richard-1257/sorting_algorithms/blob/master/107-O): Text file containing the best, average, and worst case time complexities of the Quick Sort Hoare Partition cheme algorithm, one per line.
-      
-- 12. Dealer
-      - [1000-sort_deck.c](https://github.com/richard-1257/sorting_algorithms/blob/master/1000-sort_deck.c): C function that sorts a `deck_node_t` doubly-linked list deck of cards.
-      - Assumes that there are exactly 52 elements in the doubly-linked list.
-      - Orders the deck from spades to diamonds and from aces to kings.
-      
-# Authors
-<details><summary>Richard ifeanyi</summa
+- 10. Time for an interview!
+      - [100-github_commit.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x11-python-network_1/100-github_commits.py): Python script that lists the 10 most recent comments of a given GitHub repository using the GitHub API.
+      - Usage: `./100-github_commits.py <repository name> <owner name>`
+        - Uses `requests`.
