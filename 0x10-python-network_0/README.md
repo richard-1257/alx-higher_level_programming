@@ -5,30 +5,22 @@ In this networking project, I used `curl` in Bash scripts to send various types 
 Task six was an algorithm challenge separate from the overall project theme completed in Python
 
 ## Tests ✔️
+[tests](https://github.com/richard-1257/alx-higher_level_programming/tree/master/0x10-python-network_0/tests)  Folder of test files. Provided by ALX.
 
 
 ## Tasks 📃
-- 0. Bubble sort
-     - [0-bubble_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/0-bubble_sort.c):  C function that sorts an array of integers in ascending order using the Bubble Sort algorithm.
-     - Prints the array after each swap.
-     - [0-O](https://github.com/richard-1257/sorting_algorithms/blob/master/0-O): Text file containing the best, average, and worst case time complexities of the Bubble Sort algorithm, one per line.
+NOTE: The `curl` behavior in all Bash scripts were written to interact with a server set up on a container provided by ALX.
+- 0. cURL body size
+     - [0-body_size.sh](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x10-python-network_0/0-body_size.sh):  Bash script that sends a `GET` request to a given URL and displays the size of the response body in bytes.
      
-- 1. Insertion sort
-     - [1-insertion_sort_list.c](https://github.com/richard-1257/sorting_algorithms/blob/master/1-insertion_sort_list.c): C function that sorts a `listint_t` doubly-linked list of integers in ascending order using the Insertion Sort algorithm.
-     - Prints the list after each swap.
-     - [1-O](https://github.com/richard-1257/sorting_algorithms/blob/master/1-O): Text file containing the best, average, and worst case time complexities of the Insertion Sort algorithm, one per line.
+- 1. cURL to the end
+     - [1-body.sh](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x10-python-network_0/1-body.sh): Bash script that sends a `GET` request to a given URL and displays the response body for a `200` status code response.
      
-- 2. Selection sort
-     - [2-selection_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/2-selection_sort.c): C function that sorts an array of integers in ascending order using the Selection Sort algorithm.
-     - Prints the array after each swap.
-     - [2-O](https://github.com/richard-1257/sorting_algorithms/blob/master/2-O): Text file containing the best, average, and worst case time complexities of the Selection Sort algorithm, one per line.
+- 2. cURL Method
+     - [2-delet.sh](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x10-python-network_0/2-delete.sh): Bash script that sends a `DELETE` request to a given URL and displays the response body.
 
-- 3. Quick sort
-     - [3-quick_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/3-quick_sort.c): C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
-     - Implements the Lomuto partition scheme.
-     - Always uses the last element of the partition being sorted as the pivot.
-     - Prints the array after each swap.
-     -[3-O](https://github.com/richard-1257/sorting_algorithms/blob/master/3-O): Text file containing the best, average, and worst case time complexities of the Quick Sort Lomuto Partition scheme algorithm, one per line.
+- 3. cURL only methods
+     - [3-methods.sh](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x10-python-network_0/3-methods.sh): Bash script that displays all HTTP methods the server of a given URL will accept.
 
 - 4. Shell sort - Knuth Sequence
      - [100-shell_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/100-shell_sort.c): C function that sorts an array of integers in ascending order using the Shell sort algorithm.
