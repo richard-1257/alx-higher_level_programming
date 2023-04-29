@@ -32,19 +32,15 @@ This project involved learning how to use the `urllib` and `requests` Python lib
      - Usage: `./5-hbtn_header.py <URL>`
        - Uses `requests`.
      
-- 6. Counting sort
-     - [102-counting_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/102-counting_sort.c): C function that sorts an array of integers in ascending order using the Counting Sort algorithm.
-     - Assumes that the array will only contain numbers `>= 0`.
-     - Prints the counting array after it has been initialized.
-     - [102-O](https://github.com/richard-1257/sorting_algorithms/blob/master/102-O): Text file containing the best, average, and worst case time complexities of the Counting Sort algorithm, one per line.
+- 6. POST an email #1
+     - [6-post_email.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x11-python-network_1/6-post_email.py): Python script that sends a `POST` request to a given URL with a given email, and displays the response body.
+     - Usage: `./6-post_email.py <URL> <email>`.
+       - Uses `requests`.
      
-- 7. Merge sort
-     - [103-merge_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/103-merge_sort.c): C function that sorts an array of integers in ascending order using the Merge Sort algorithm.
-     - Implements the `top-down` Merge Sort algorithm
-         - When an array is divided, the size of the left subarray is always less than or equal to the size of the right subarray.
-         - Always sorts the left subarray before the right one.
-     - Prints subarrays each time they are merged.
-     - [103-O](https://github.com/richard-1257/sorting_algorithms/blob/master/103-O): Text file containing the best, average, and worst case time complexities of the Merge Sort algorithm, one per line.
+- 7. Error code #1
+     - [7-error_code.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x11-python-network_1/7-error_code.py): Python script sends a request to a given URL and displays the response body.
+     - Handles HTTP errors
+         - Uses `requests`.
 
 - 8. Heap sort
      - [104-heap_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/104-heap_sort.c): C function that sorts an array of integers in ascending order using the Heap Sort algorithm.
