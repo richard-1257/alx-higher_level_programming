@@ -18,22 +18,19 @@ This project involved learning how to use the `urllib` and `requests` Python lib
      - Usage: `./2-post_email.py <URL> <email>`
        - Uses `urllib`.
 
-- 3. Quick sort
-     - [3-quick_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/3-quick_sort.c): C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
-     - Implements the Lomuto partition scheme.
-     - Always uses the last element of the partition being sorted as the pivot.
-     - Prints the array after each swap.
-     -[3-O](https://github.com/richard-1257/sorting_algorithms/blob/master/3-O): Text file containing the best, average, and worst case time complexities of the Quick Sort Lomuto Partition scheme algorithm, one per line.
+- 3. Error code #0
+     - [3-error_code.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x11-python-network_1/3-error_code.py): Python script sends a request to a given URL and displays the response body.
+     - Handles HTTP errors
+       - Uses `urllib`.
 
-- 4. Shell sort - Knuth Sequence
-     - [100-shell_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/100-shell_sort.c): C function that sorts an array of integers in ascending order using the Shell sort algorithm.
-     - Implements the Knuth interval sequence.
-     - Prints the array each time the interval is decreased.
+- 4. What's my status? #1
+     - [4-hbtn-status.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x11-python-network_1/4-hbtn_status.py): Python script that fetches `https://intranet.hbtn.io/status`.
+     - Uses `requests`.
      
-- 5. Cocktail shaker sort
-     - [101-cocktail_sort_list.c](https://github.com/richard-1257/sorting_algorithms/blob/master/101-cocktail_sort_list.c): C function that sorts a `listint_t` doubly-linked list of integers in ascending order using the Cocktail Shaker Sort algorithm.
-     - Prints the list after each swap.
-     - [101-O](https://github.com/richard-1257/sorting_algorithms/blob/master/101-O): Text file containing the best, average, and worst case time complexities of the Cocktail Shaker Sort algorithm, one per line.
+- 5. Response header value #1
+     - [5-hbtn_header.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x11-python-network_1/5-hbtn_header.py): Python script that displays the `X-Request-Id` response header variable of a request to a given URL.
+     - Usage: `./5-hbtn_header.py <URL>`
+       - Uses `requests`.
      
 - 6. Counting sort
      - [102-counting_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/102-counting_sort.c): C function that sorts an array of integers in ascending order using the Counting Sort algorithm.
