@@ -36,3 +36,13 @@ In this project, I studied object instantiation in Python, delving into variable
 >>> a = 89
 >>> b = a + 1
 ```
+
+- 6. Is equal
+  - [6-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/6-answer.txt): What do these 3 lines print?
+```
+>>> s1 = "Holberton"
+>>> s2 = s1
+>>> print(s1 == s2)
+```
+
+- 7. Is the same
