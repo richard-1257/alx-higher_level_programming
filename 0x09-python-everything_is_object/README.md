@@ -17,3 +17,10 @@ In this project, I studied object instantiation in Python, delving into variable
 ```
 
 - 3. Right count =
+  - [3-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/3-answer.txt): In the following code, do `a` and `b` point to the same object? 
+```
+>>> a = 89
+>>> b = 89
+```
+
+- 4. Right count =
