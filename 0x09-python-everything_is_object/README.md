@@ -29,3 +29,10 @@ In this project, I studied object instantiation in Python, delving into variable
 >>> a = 89
 >>> b = a
 ```
+
+- 5. Right count =+
+  - [5-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/5-answer.txt): In the following code, do `a` and `b` point to the same object? 
+```
+>>> a = 89
+>>> b = a + 1
+```
