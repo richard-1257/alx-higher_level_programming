@@ -54,3 +54,9 @@ In this project, I studied object instantiation in Python, delving into variable
 ```
 
 - 8. Is really equal
+  - [8-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/8-answer.txt): What do these 3 lines print?
+```
+>>> s1 = "Holberton"
+>>> s2 = "Holberton"
+>>> print(s1 == s2)
+```
