@@ -46,3 +46,11 @@ In this project, I studied object instantiation in Python, delving into variable
 ```
 
 - 7. Is the same
+  - [7-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/7-answer.txt): What do these 3 lines print?
+```
+>>> s1 = "Holberton"
+>>> s2 = s1
+>>> print(s1 is s2)
+```
+
+- 8. Is really equal
