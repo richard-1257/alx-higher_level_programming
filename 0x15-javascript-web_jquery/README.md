@@ -57,3 +57,6 @@ This was the preparatory project learning how to manipulate the DOM with jQuery 
   - Displays the translation in the HTML tag `DIV#hello`.
   - Works when imported in the `HEAD` tag. 
 
+- 13. And press ENTER
+  - [103-script.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/103-script.js): JavaScript script that uses jQuery to fetch and display how to say "Hello" in a given language using the API `https://www.fourtonfish.com/hellosalut/hello/`.
+  - Identical to [102-script.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/102-script.js) except that the tranlsation is fetched when either the user clicks on the HTML tag `INPUT#btn_translate` or presses `ENTER` when hovering over the tag `INPUT#language_code`. 
