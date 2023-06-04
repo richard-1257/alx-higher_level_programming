@@ -38,5 +38,18 @@ This was the preparatory project learning how to manipulate the DOM with jQuery 
   - Displays the translation in the HTML tag `DIV#hello`.
   - Works when imported in the `HEAD` tag. 
 
+- 10. No jQuery - document loaded
+  - [100-script.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/100-script.js):  JavaScript script that uses `document.querySelector` to update the text color of the HTML tag `HEADER` to red (`#ff0`).
+  - Works when imported in the `HEAD` tag.
+
+- 11. List, add, remove
+  - [101-script.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/101-script.js): JavaScript script that uses jQuery to add, remove, and clear `LI` elements from a list based on user click input.
+  - Adds a new element when the user clicks `DIV#add_item`.
+    - Adds `<li>Item</li>` to the HTML tag `UL.my_list`.
+  - Removes the last element when the user clicks `DIV#remove_item`.
+  - Clears all elements when the user clicks `DIV#clear_list`.
+  - Works when imported in the `HEAD` tag. 
+
+- 12. Say hello to everybody!
 
 
