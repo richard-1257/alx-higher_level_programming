@@ -23,6 +23,8 @@ This was the preparatory project learning how to manipulate the DOM with jQuery 
   - [5-script.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/5-script.js): JavaScript script that uses jQuery to add a `LI` element to a list when the user clicks on the tag `DIV#add_item`.
   - Adds the element `<li>Item</li>` to `UL.my_list`. 
 
+- 6. Change the text
+  - [6-script.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/6-script.js): JavaScript script that uses jQuery to update the text of the HTML tag `HEADER` to "New Header!!!" when the user clicks on the tag `DIV#update_header`.
 
 
 
