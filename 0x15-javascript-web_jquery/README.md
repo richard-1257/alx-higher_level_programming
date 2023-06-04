@@ -1,3 +1,6 @@
+![jQuery](https://github.com/richard-1257/alx-higher_level_programming/assets/83041703/09521ab3-1eab-452f-a865-eb8a714d8f7f)
+
+
 # Javascript - Web JQuery
 This was the preparatory project learning how to manipulate the DOM with jQuery before implementing it into our hBnB project.
 
