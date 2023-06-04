@@ -26,6 +26,17 @@ This was the preparatory project learning how to manipulate the DOM with jQuery 
 - 6. Change the text
   - [6-script.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/6-script.js): JavaScript script that uses jQuery to update the text of the HTML tag `HEADER` to "New Header!!!" when the user clicks on the tag `DIV#update_header`.
 
+- 7. Star wars character
+  - [7-script.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/7-script.js): JavaScript script that uses jQuery to fetch the Star Wars API `https://swapi.co/api/people/5/?format=json` and display the name in the HTML tag `DIV#character`.
+
+- 8. Star Wars movies
+  - [8-script.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/8-script.js): JavaScript script that uses jQuery to fetch and list all movie titles from the Star Wars API `https://swapi.co/api/films/?format=json`
+  - Titles are listed in the HTML tag `UL#list_movies`. 
+
+- 9. Say Hello!
+  - [9-script.js](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/9-script.js): JavaScript script that uses jQuery to fetch and display how to say "Hello" in French using the API `https://fourtonfish.com/hellosalut/?lang=fr`.
+  - Displays the translation in the HTML tag `DIV#hello`.
+  - Works when imported in the `HEAD` tag. 
 
 
 
