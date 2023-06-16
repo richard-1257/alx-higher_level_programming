@@ -67,3 +67,28 @@ In this project, I studied object instantiation in Python, delving into variable
 >>> s2 = "Holberton"
 >>> print(s1 is s2)
 ```
+
+- 10. And with a list, is it equal
+  - [10-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/10-answer.txt): What do these 3 lines print?
+```
+>>> l1 = [1, 2, 3]
+>>> l2 = [1, 2, 3]
+>>> print(l1 == l2)
+```
+
+- 11. And with a list, is it the same
+  - [11-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/11-answer.txt): What do these 3 lines print?
+```
+>>> l1 = [1, 2, 3]
+>>> l2 = [1, 2, 3]
+>>> print(l1 is l2)
+```
+
+- 12. And with a list, is it really equal
+  - [12-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/12-answer.txt): What do these 3 lines print?
+```
+>>> l1 = [1, 2, 3]
+>>> l2 = l1
+>>> print(l1 == l2)
+```
+
