@@ -120,7 +120,8 @@ print(l2)
 
 - 16. Integer incrementation
   - [16-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/16-answer.txt): What does this script print?
-```def increment(n):
+```
+def increment(n):
     n += 1
 
 a = 1
@@ -130,7 +131,8 @@ print(a)
 
 - 17. List incrementation
   - [17-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/17-answer.txt): What does this script print?
-```def increment(n):
+```
+def increment(n):
     n.append(4)
 
 l = [1, 2, 3]
