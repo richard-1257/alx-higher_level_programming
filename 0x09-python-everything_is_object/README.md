@@ -103,10 +103,10 @@ In this project, I studied object instantiation in Python, delving into variable
 - 14. List append
   - [14-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/14-answer.txt): What does this script print?
 ```
->>> l1 = [1, 2, 3]
->>> l2 = l1
->>> l1.append(4)
->>> print(l2)
+l1 = [1, 2, 3]
+l2 = l1
+l1.append(4)
+print(l2)
 ```
 
 - 15. List add
