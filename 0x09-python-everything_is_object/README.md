@@ -151,3 +151,26 @@ l2 = [4, 5, 6]
 assign_value(l1, l2)
 print(l1)
 ```
+
+- 19. Copy a list object
+  - [19-copy_list.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/19-copy_list.py): Python function `def copy_list(l):` that returns a copy of a list.
+ 
+- 20. Tuple or not?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
