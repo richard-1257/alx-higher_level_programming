@@ -202,8 +202,15 @@ b = ()
 a is b
 ```
 - 27. Richard Sim's special #3
-  - [27-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/27-answer.txt):
-
+  - [27-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/27-answer.txt): Will the last line of this script print `139926795932424?`
+```
+>>> id(a)
+139926795932424
+>>> a
+[1, 2, 3, 4]
+>>> a = a + [5]
+>>> id(a)
+```
 
 
 
