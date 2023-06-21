@@ -161,6 +161,12 @@ print(l1)
 a = ()
 ```
 
+- 21. Tuple or not?
+  - [21-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/21-answer.txt): Is `a` a tuple?
+```
+a = (1, 2)
+```
+
 
 
 
