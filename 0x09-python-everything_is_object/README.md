@@ -167,6 +167,11 @@ a = ()
 a = (1, 2)
 ```
 
+- 22. Tuple or not?
+  - [22-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/22-answer.txt): Is `a` a tuple?
+```
+a = (1)
+```
 
 
 
