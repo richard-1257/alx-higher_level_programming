@@ -194,9 +194,15 @@ a = (1, 2)
 b = (1, 2)
 a is b
 ```
-
-
-
+- 26. Richard Sim's special #2
+  - [26-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/26-answer.txt): What does this script print?
+```
+a = ()
+b = ()
+a is b
+```
+- 27. Richard Sim's special #3
+  - [27-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/27-answer.txt):
 
 
 
