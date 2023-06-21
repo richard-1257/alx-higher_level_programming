@@ -180,10 +180,20 @@ a = (1, )
 ```
 
 - 24. Richard Sim's special #0
+  - [24-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/24-answer.txt): What does this script print?
+```
+a = (1)
+b = (1)
+a is b
+```
 
-
-
-
+- 25. Richard Sim's special #1
+  - [25-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/25-answer.txt): What does this script print?
+```
+a = (1, 2)
+b = (1, 2)
+a is b
+```
 
 
 
