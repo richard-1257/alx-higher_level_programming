@@ -173,7 +173,13 @@ a = (1, 2)
 a = (1)
 ```
 
+- 23. Tuple or not?
+  - [23-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/23-answer.txt): Is `a` a tuple?
+```
+a = (1, )
+```
 
+- 24. Richard Sim's special #0
 
 
 
