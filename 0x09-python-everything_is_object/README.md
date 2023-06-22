@@ -257,6 +257,16 @@ print("Love")
 print("Python")
 ```
 
-
-
-
+- 34. Clear strings
+  - [106-line1.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/106-line1.txt): How many `str` objects are created by the execution of the first line in this script?
+  - [106-line2.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/106-line2.txt): How many `str` objects are created by the execution of the second line in this script?
+  - [106-line3.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/106-line3.txt): After the execution of line 3, is the `str` object pointed to by `a` deleted?
+  - [106-line4.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/106-line4.txt): After the execution of line 4, is the `str` object pointed to by `b` deleted?
+  - [106-line5.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/106-line5.txt): How many `str` objects are created by the execution of the last line in this script?
+```
+a = "SCHL"
+b = "SCHL"
+del a
+del b
+c = "SCHL"
+```
