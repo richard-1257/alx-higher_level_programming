@@ -222,8 +222,9 @@ a is b
 >>> id(a)
 ```
 - 29. #pythonic
-  []():
+  [100-magic_string.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/100-magic_string.py): Python function `magic_string()` that returns the string `"BestSchool"` n times the number of iteration.
 
-
+- 30. Low memory cost
+  - []():
 
 
