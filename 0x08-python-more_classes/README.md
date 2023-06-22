@@ -17,6 +17,11 @@ In this project, I continued to practice object-oriented programming in Python. 
 - If either of `width` or `height` is not an integer, a `TypeError` is raised with the message `width must be an integer` or `height must be an integer`. 
 
 - 2. Area and Perimeter
+  - [2-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/2-rectangle.py): Python class that defines a rectangle. Builds on [1-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/1-rectangle.py) with:
+    - Public instance method `def area(self)`: that returns the area of the rectangle.
+    - Public instance attribute `def perimeter(self)`: that returns the permiter of the rectangle (if either of `width` or `height` equals `0`, the perimeter is `0`).
+
+- 3. String representation
 
 
 
