@@ -225,6 +225,6 @@ a is b
   [100-magic_string.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/100-magic_string.py): Python function `magic_string()` that returns the string `"BestSchool"` n times the number of iteration.
 
 - 30. Low memory cost
-  - []():
+  - [101-locked_class.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/101-locked_class.py): Python class `LockedClass` with no attributes that prevents the user from dynamically creating any new instance attributes not called `first_name`.
 
 
