@@ -22,8 +22,11 @@ In this project, I continued to practice object-oriented programming in Python. 
     - Public instance attribute `def perimeter(self)`: that returns the permiter of the rectangle (if either of `width` or `height` equals `0`, the perimeter is `0`).
 
 - 3. String representation
+  - [3-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/3-rectangle.py): Python class that defines a rectangle. Builds on [2-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/2-rectangle.py) with:
+    - Special method `__str__` to print the rectangle with the # character (if either of `width` or `height` equals `0`, the method returns an empty string.). 
 
-
+- 4. Eval is magic
+  - [4-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/4-rectangle.py): Python class that defines a rectangle. Builds on [3-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/3-rectangle.py) with: 
 
 
 
