@@ -211,8 +211,18 @@ a is b
 >>> a = a + [5]
 >>> id(a)
 ```
-
-
+- 28. Richard Sim's special #4
+  - [28-answer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/28-answer.txt): Will the last line of this script print `139926795932424?`
+```
+>>> a
+[1, 2, 3]
+>>> id (a)
+139926795932424
+>>> a += [4]
+>>> id(a)
+```
+- 29. #pythonic
+  []():
 
 
 
