@@ -229,11 +229,27 @@ a is b
 
 - 31. int 1/3
   - [103-line2.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/103-line2.txt): How many `int` objects are created by the execution of the first line in this script?
-  - [104-line1.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/104-line1.txt): How many `int` objects are created by the execution of the second line in this script?
+  - [104-line2.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/104-line2.txt): How many `int` objects are created by the execution of the second line in this script?
 ```
 a = 1
 b = 1
 ```
+
+- 32. int 2/3
+  - [104-line1.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/104-line1.txt): How many `int` objects are created by the execution of the first line in this script?
+  - [104-line2.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/104-line2.txt): How many `int` objects are created by the execution of the second line in this script?
+  - [104-line3.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/104-line3.txt): After the execution of line 3, is the `int` object pointed to by `a` deleted?
+  - [104-line4.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/104-line4.txt): After the execution of line 4, is the `int` object pointed to by `b` deleted?
+  - [104-line5.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/104-line5.txt): How many `int` objects are created by the execution of the last line in this script?
+```
+a = 1024
+b = 1024
+del a
+del b
+c = 1024
+```
+
+
 
 
 
