@@ -249,8 +249,13 @@ del b
 c = 1024
 ```
 
-
-
+- 33. int 3/3
+  - [105-line1.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/105-line1.txt): Before the execution of line 2 in this script, how many `int` objects have been created and are still in memory?
+```
+print("I")
+print("Love")
+print("Python")
+```
 
 
 
