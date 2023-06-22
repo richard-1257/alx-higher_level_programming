@@ -227,4 +227,15 @@ a is b
 - 30. Low memory cost
   - [101-locked_class.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/101-locked_class.py): Python class `LockedClass` with no attributes that prevents the user from dynamically creating any new instance attributes not called `first_name`.
 
+- 31. int 1/3
+  - [103-line2.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/103-line2.txt): How many `int` objects are created by the execution of the first line in this script?
+  - [104-line1.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/104-line1.txt): How many `int` objects are created by the execution of the second line in this script?
+```
+a = 1
+b = 1
+```
+
+
+
+
 
