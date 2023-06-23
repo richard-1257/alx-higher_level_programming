@@ -29,6 +29,9 @@ In this project, I continued to practice object-oriented programming in Python. 
   - [4-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/4-rectangle.py): Python class that defines a rectangle. Builds on [3-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/3-rectangle.py) with:
     - Special method `__repr__` to return a string representation of the rectangle. 
 
+- 5. Detect instance deletion
+  - [5-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/5-rectangle.py): Python class that defines a rectangle. Builds on 4-rectangle.py with:
+    - Special method `__del__` that prints the message `Bye rectangle...` when a `Rectangle` is deleted. 
 
-
+- 6. How many instances
 
