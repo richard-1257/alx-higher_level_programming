@@ -46,6 +46,7 @@ In this project, I continued to practice object-oriented programming in Python. 
     - Static method `def bigger_or_equal(rect_1, rect_2):` that returns the rectangle with the greater area (returns `rect_1` if both areas are equal).
     - If either of `rect_1` or `rect_2` is not a `Rectangle` instance, a `TypeError` is raised with the message `rect_1 must be an instance of Rectangle` or `rect_2 must be an instance of Rectangle.` 
 
+- 9. A square is a rectangle
 
 
 
