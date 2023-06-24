@@ -47,8 +47,10 @@ In this project, I continued to practice object-oriented programming in Python. 
     - If either of `rect_1` or `rect_2` is not a `Rectangle` instance, a `TypeError` is raised with the message `rect_1 must be an instance of Rectangle` or `rect_2 must be an instance of Rectangle.` 
 
 - 9. A square is a rectangle
+  - [9-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/9-rectangle.py): Python class that defines a rectangle. Builds on [8-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/8-rectangle.py) with:
+    - Class method `def square(cls, size=0):` that returns a new `Rectangle` instance with `width == height == size.` 
 
-
+- 10. N Queens
 
 
 
