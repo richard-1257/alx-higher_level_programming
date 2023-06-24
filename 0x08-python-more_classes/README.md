@@ -34,4 +34,31 @@ In this project, I continued to practice object-oriented programming in Python. 
     - Special method `__del__` that prints the message `Bye rectangle...` when a `Rectangle` is deleted. 
 
 - 6. How many instances
+  - [6-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/6-rectangle.py): Python class that defines a rectangle. Builds on [5-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/5-rectangle.py) with:
+    - Public class attribute `number_of_instances` that is initialized to `0`, incremented for each new instantiation, and decremened for each instance deletion. 
+
+- 7. Change representation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
