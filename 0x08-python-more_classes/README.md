@@ -38,10 +38,10 @@ In this project, I continued to practice object-oriented programming in Python. 
     - Public class attribute `number_of_instances` that is initialized to `0`, incremented for each new instantiation, and decremened for each instance deletion. 
 
 - 7. Change representation
+  - [7-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/7-rectangle.py): Python class that defines a rectangle. Builds on [6-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/6-rectangle.py) with:
+    - Public class attribute `class_symbol` that is initialized to `#` but can be any type - used as the symbol for string representation. 
 
-
-
-
+- 8. Compare rectangles
 
 
 
