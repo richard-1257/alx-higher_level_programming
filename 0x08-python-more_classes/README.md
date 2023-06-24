@@ -42,6 +42,9 @@ In this project, I continued to practice object-oriented programming in Python. 
     - Public class attribute `class_symbol` that is initialized to `#` but can be any type - used as the symbol for string representation. 
 
 - 8. Compare rectangles
+  - [8-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/8-rectangle.py): Python class that defines a rectangle. Builds on [7-rectangle.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x08-python-more_classes/7-rectangle.py) with:
+    - Static method `def bigger_or_equal(rect_1, rect_2):` that returns the rectangle with the greater area (returns `rect_1` if both areas are equal).
+    - If either of `rect_1` or `rect_2` is not a `Rectangle` instance, a `TypeError` is raised with the message `rect_1 must be an instance of Rectangle` or `rect_2 must be an instance of Rectangle.` 
 
 
 
