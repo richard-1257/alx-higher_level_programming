@@ -6,4 +6,5 @@ In this project, I started practicing test-driven development using `docstring` 
 - [0-add_integer.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/0-add_integer.txt)
 - [2-matrix_divided.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/2-matrix_divided.txt)
 - [3-say_my_name.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/3-say_my_name.txt)
+- [4-print_square.txt](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/4-print_square.txt)
 - []()
