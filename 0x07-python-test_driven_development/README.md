@@ -59,8 +59,10 @@ In this project, I started practicing test-driven development using `docstring` 
   - No spaces are printed at the beginning or end of each printed line.
 
 - 5. Max integer - Unittest
+  - [test/6-max_integer_test.py](test/6-max_integer_test.py): Python class/script that runs unittests for the function `def max_integer(list=[]):` (provided by ALX).
 
-
+- 6. Matrix multiplication
+  - [100-matrix_mul.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/100-matrix_mul.py): Python function that multiplies two matrices.
 
 
 
