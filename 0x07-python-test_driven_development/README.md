@@ -72,25 +72,8 @@ In this project, I started practicing test-driven development using `docstring` 
   - If `m_a` and `m_b` cannot be multiplied (ie. row size of `m_a` does not match column size of `m_b`), a `ValueError` is raised with the message `m_a and m_b can't be multiplied.`
 
 - 7. Lazy matrix multiplication
+  - [101-lazy_matrix_mul.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/101-lazy_matrix_mul.py):  Python function that multiplies two matrices using the module `NumPy.`
+  - Identical in function to [100-matrix_mul.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/100-matrix_mul.py)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- 8. CPython #3: Python Strings
+  - [102-python.c](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/102-python.c): C function that prints basic information about Python string objects.
