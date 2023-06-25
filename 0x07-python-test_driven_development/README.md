@@ -63,6 +63,8 @@ In this project, I started practicing test-driven development using `docstring` 
 
 - 6. Matrix multiplication
   - [100-matrix_mul.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/100-matrix_mul.py): Python function that multiplies two matrices.
+  - Returns a new matrix representing the multiplication of `m_a` by `m_b.`
+  - If either of `m_a` or `m_b` is empty (ie. `== []` or `== [[]]`), a `ValueError` is raised with the message `m_a can't be empty` or `m_b can't be empty.`
 
 
 
