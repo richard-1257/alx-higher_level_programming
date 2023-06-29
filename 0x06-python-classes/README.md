@@ -12,7 +12,9 @@ In this project, I began practicing object-oriented programming using classes an
 
 - 2. Size validation
   - [2-square.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x06-python-classes/2-square.py): Python class Square that defines a square. Builds on [1-square.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x06-python-classes/1-square.py) with:
-    - Instantiation with optional `size`: `def __init__(self, size=0):` 
+    - Instantiation with optional `size`: `def __init__(self, size=0):`
+  - If a provided `size` attribute is not an integer, a `TypeError` exception is raised with the message `must be an integer`.
+  - If a provided `size` attribute is less than `0`, a `ValueError` exception is raised with the message `size must be >= 0.` 
 
 
 
