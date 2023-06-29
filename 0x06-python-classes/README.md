@@ -3,3 +3,4 @@ In this project, I began practicing object-oriented programming using classes an
 
 ## Tasks 📃
 - 0. My first square
+  - [0-square.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x06-python-classes/0-square.py):  Python class `Square` that defines a square.
