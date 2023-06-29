@@ -18,9 +18,9 @@ In this project, I began practicing object-oriented programming using classes an
 
 - 3. Area of a square
   - [3-square.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x06-python-classes/3-square.py): Python class Square that defines a square. Builds on [2-square.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x06-python-classes/2-square.py) with:
-    - Public instance attribute `def area(self):` that returns the current square area. 
-
-
+    - Public instance attribute `def area(self):` that returns the current square area.
+   
+- 4. Access and update private attribute
 
 
 
