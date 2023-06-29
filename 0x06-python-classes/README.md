@@ -6,6 +6,9 @@ In this project, I began practicing object-oriented programming using classes an
   - [0-square.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x06-python-classes/0-square.py):  Python class `Square` that defines a square.
 
 - 1. Square with size
+  - [1-square.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x06-python-classes/1-square.py): Python class Square that defines a square. Builds on [0-square.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x06-python-classes/0-square.py) with:
+  - Private instance attribute `size`
+  - Instantiation with `size`.
 
 
 
