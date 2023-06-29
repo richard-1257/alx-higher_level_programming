@@ -10,7 +10,8 @@ In this project, I began practicing object-oriented programming using classes an
   - Private instance attribute `size`
   - Instantiation with `size`.
 
-
+- 2. Size validation
+  - []():
 
 
 
