@@ -17,6 +17,7 @@ In this project, I began practicing object-oriented programming using classes an
   - If a provided `size` attribute is less than `0`, a `ValueError` exception is raised with the message `size must be >= 0.` 
 
 - 3. Area of a square
+  - [3-square.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x06-python-classes/3-square.py):
 
 
 
