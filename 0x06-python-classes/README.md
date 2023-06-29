@@ -16,7 +16,7 @@ In this project, I began practicing object-oriented programming using classes an
   - If a provided `size` attribute is not an integer, a `TypeError` exception is raised with the message `must be an integer`.
   - If a provided `size` attribute is less than `0`, a `ValueError` exception is raised with the message `size must be >= 0.` 
 
-
+- 3. Area of a square
 
 
 
