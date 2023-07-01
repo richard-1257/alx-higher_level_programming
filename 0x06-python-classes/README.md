@@ -25,7 +25,7 @@ In this project, I began practicing object-oriented programming using classes an
     - Property `def size(self):` to retrieve the private instance attribute `self.`
     - Property setter `def size(self, value):` to set `self.` 
 
-
+- 5. Printing a square
 
 
 
