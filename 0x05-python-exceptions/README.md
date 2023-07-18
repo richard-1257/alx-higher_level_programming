@@ -21,3 +21,5 @@ Prototypes for functions written in this project:
 | `103-python.c` | `void print_python_float(PyObject *p);` |
 
 ## Tasks 📃
+
+- 0. Safe list printing
