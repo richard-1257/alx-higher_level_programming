@@ -35,8 +35,13 @@ Prototypes for functions written in this project:
   - Without importing modules or using `type()`.
 
 - 2. Print and count integers
+  - [2-safe_print_list_integers.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x05-python-exceptions/2-safe_print_list_integers.py): Python function that prints the first `x` elements of a list that are integers on the same line, followed by a new line.
+  - The parameter `my_list` can contain any type.
+  - The parameter `x` represents the number of elements to print - can be bigger than the length of `my_list.`
+  - Reutnrs the real number of integers printed.
+  - Without importing modules or using `len().`
 
-
+- 3. Integers division with debug
 
 
 
