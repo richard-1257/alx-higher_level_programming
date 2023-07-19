@@ -27,3 +27,29 @@ Prototypes for functions written in this project:
   - The parameter `x` represents the number of elements to print - can be bigger than the length of `my_list.`
   - Returns the real number of elements printed.
   - Without importing modules or using `len().`
+
+- 1. Safe printing of an integers list
+  - [1-safe_print_integer.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x05-python-exceptions/1-safe_print_integer.py): Python function that prints an integer in `"{:d}".format()` format.
+  - The parameter `value` can be any type.
+  - Returns `True` if `value` was printed correctly (ie. was an integer), `False` otherwise.
+  - Without importing modules or using `type()`.
+
+- 2. Print and count integers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
