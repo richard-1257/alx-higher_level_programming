@@ -3,6 +3,8 @@ In this project, I learned about sets and dictionaries in Python. I practiced us
 
 ## Function Prototypes 💾
 Prototypes for functions written in this project:
+| File | Prototype |
+| ---- | --------- |
 | `print_array.c` | `void print_array(const int *array, size_t size)` |
 | `print_list.c` |`void print_list(const listint_t *list)` |
 | `0-bubble_sort.c` | `0-bubble_sort.c	void bubble_sort(int *array, size_t size);` |
