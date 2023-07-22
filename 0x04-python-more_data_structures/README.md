@@ -5,17 +5,50 @@ In this project, I learned about sets and dictionaries in Python. I practiced us
 Prototypes for functions written in this project:
 | File | Prototype |
 | ---- | --------- |
-| `print_array.c` | `void print_array(const int *array, size_t size)` |
-| `print_list.c` |`void print_list(const listint_t *list)` |
-| `0-bubble_sort.c` | `0-bubble_sort.c	void bubble_sort(int *array, size_t size);` |
-| `1-insertion_sort_list.c` | `void insertion_sort_list(listint_t **list);` |
-| `2-selection-sort.c` | `void selection_sort(int *array, size_t size);` |
-| `3-quick_sort.c` | `void quick_sort(int *array, size_t size);` |
-| `100-shell_sort.c` | `void shell_sort(int *array, size_t size);` |
-| `101-cocktail_sort_list.c` | `void cocktail_sort_list(listint_t **list);` |
-| `102-counting_sort.c` | `void counting_sort(int *array, size_t size);` |
-| `103-merge_sort.c` | `void merge_sort(int *array, size_t size);` |
-| `104-heap_sort.c` | `void heap_sort(int *array, size_t size);` |
-| `105-radix_sort.c` | `void radix_sort(int *array, size_t size);` |
-| `106-bitonic_sort.c` | `void bitonic_sort(int *array, size_t size);` |
-| `107-quick_sort_hoare.c` | `void quick_sort_hoare(int *array, size_t size);` |
+| `0-square_matrix_simple.py` | `def square_matrix_simple(matrix=[]):` |
+| `1-search_replace.py` |`def search_replace(my_list, search, replace):` |
+| `2-uniq_add.py` | `def uniq_add(my_list=[]):` |
+| `3-common_elements.py` | `def common_elements(set_1, set_2):` |
+| `4-only_diff_elements.py` | `def only_diff_elements(set_1, set_2):` |
+| `5-number_keys.py` | `def number_keys(a_dictionary):` |
+| `6-print_sorted_dictionary.py	` | `def print_sorted_dictionary(a_dictionary):` |
+| `7-update_dictionary.py` | `def update_dictionary(a_dictionary, key, value):` |
+| `8-simple_delete.py` | `def simple_delete(a_dictionary, key=""):` |
+| `9-multiply_by_2.py` | `def multiply_by_2(a_dictionary):` |
+| `10-best_score.py` | `def best_score(a_dictionary):` |
+| `11-mutiply_list_map.py` | `def mutiply_list_map(my_list=[], number=0):` |
+| `12-roman_to_int.py` | `def roman_to_int(roman_string):` |
+| `100-weight_average.py | `def weight_average(my_list=[]):` |
+| `101-square_matrix_map.py` | `def square_matrix_map(matrix=[]):` |
+| `102-complex_delete.py` |`def complex_delete(a_dictionary, value):` |
+| `103-python.c` | `void print_python_list(PyObject *p);` |
+| `103-python.c` | `void print_python_bytes(PyObject *p);` |
+
+## Tasks 📃
+- 0. Squared simple
+  - [0-square_matrix_simple.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/0-square_matrix_simple.py): Python function that computes the square value of all integers of a matrix.
+  - The parameter `matrix` is a two-dimensional array.
+  - Returns a `matrix` of the same size as matrix where each value is the square of the input value.
+  - The initial matrix is not modified.
+  - Without importing modules.
+ 
+- 1. Search and replace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
