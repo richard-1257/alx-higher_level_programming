@@ -72,6 +72,12 @@ Prototypes for functions written in this project:
   - Without importing modules.
  
 - 8. Simple delete by key
+  - [8-simple_delete.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/8-simple_delete.py): Python function that deletes a key in a dictionary.
+  - The paramter `key` is always a string.
+  - If the key does not exist, the dictionary does not change.
+  - Without importing modules.
+ 
+- 9. Multiply by 2
 
 
 
