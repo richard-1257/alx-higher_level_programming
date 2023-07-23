@@ -44,6 +44,8 @@ Prototypes for functions written in this project:
   - Without importing modules.
  
 - 3. Present in both
+  - [3-common_elements.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/3-common_elements.py): Python function that returns a set of common elements in two sets.
+  - Without importing modules.
 
 
 
