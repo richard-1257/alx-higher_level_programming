@@ -46,6 +46,16 @@ Prototypes for functions written in this project:
 - 3. Present in both
   - [3-common_elements.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/3-common_elements.py): Python function that returns a set of common elements in two sets.
   - Without importing modules.
+ 
+- 4. Only differents
+  - [4-only_diff_elements.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/4-only_diff_elements.py): Python function that returns a set of all elements present in only one set.
+  - Without importing modules.
+ 
+- 5. Number of keys
+  - [5-number_keys.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/5-number_keys.py): Python function that returns the number of keys in a dictionary.
+  - Without importing modules.
+ 
+- 6. Print sorted dictionary
 
 
 
