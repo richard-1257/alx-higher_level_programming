@@ -40,6 +40,10 @@ Prototypes for functions written in this project:
   - Without importing modules.
  
 - 2. Unique addition
+  - [2-uniq_add.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/2-uniq_add.py): Python function that adds all unique integers in a list (once for each integer).
+  - Without importing modules.
+ 
+- 3. Present in both
 
 
 
