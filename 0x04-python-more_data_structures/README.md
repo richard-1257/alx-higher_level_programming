@@ -33,6 +33,13 @@ Prototypes for functions written in this project:
   - Without importing modules.
  
 - 1. Search and replace
+  - [1-search_replace.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/1-search_replace.py):  Python function that replaces all occurences of an element by another in a new list.
+  - The parameter `my_list` is the initial list.
+  - The parameter `search` is the element to replace in the list.
+  - The parameter `replace` is the new element.
+  - Without importing modules.
+ 
+- 2. Unique addition
 
 
 
