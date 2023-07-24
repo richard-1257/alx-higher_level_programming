@@ -101,6 +101,12 @@ Prototypes for functions written in this project:
   - If the parameter `roman_string` is not a string or `None`, the function returns `0.`
  
 - 13. Weighted average!
+  - [100-weight_average.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/100-weight_average.py): Python function that returns the weighted average of all integers in a list of tuples.
+  - Tuple format: `(<score>, <weight>)`.
+  - If the list is empty - returns `0.`
+  - Without importing modules.
+ 
+- 14. Squared by using map
 
 
 
