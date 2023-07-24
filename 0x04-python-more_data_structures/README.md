@@ -120,19 +120,4 @@ Prototypes for functions written in this project:
   - Without importing modules.
  
 - 16. CPython #1: PyBytesObject
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  - [103-python.c](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/103-python.c): C functions that print basic information about Python lists and Python bytes objects.
