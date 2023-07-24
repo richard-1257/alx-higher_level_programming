@@ -90,6 +90,12 @@ Prototypes for functions written in this project:
   - Without importing modules.
  
 - 11. Multiply by using map
+  - [11-multiply_list_map.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/11-multiply_list_map.py): Python function that returns a list with all values multiplied by a number using `map.`
+  - Returns a new list of the same length as `my_list` with each value multiplied by `number.`
+  - The initial list is not modified.
+  - Without using loops or importing modules.
+ 
+- 12. Roman to Integer
 
 
 
