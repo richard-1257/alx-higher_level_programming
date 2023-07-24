@@ -96,6 +96,11 @@ Prototypes for functions written in this project:
   - Without using loops or importing modules.
  
 - 12. Roman to Integer
+  - [12-roman_to_int.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/12-roman_to_int.py): Python function that converts a roman numeral to an integer.
+  - The function assumes the number will be between 1-3999.
+  - If the parameter `roman_string` is not a string or `None`, the function returns `0.`
+ 
+- 13. Weighted average!
 
 
 
