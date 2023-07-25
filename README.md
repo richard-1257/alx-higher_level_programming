@@ -11,10 +11,5 @@ At ALX, there are several tracks to become a full stack software engineer. One o
 - Test Driven Development
 - Objects and more
 
-
-
-
-
-
-
+## Projects
 [0x00-python-hello_world](https://github.com/richard-1257/alx-higher_level_programming/tree/master/0x00-python-hello_world)
