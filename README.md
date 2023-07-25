@@ -34,3 +34,6 @@ At ALX, there are several tracks to become a full stack software engineer. One o
 - [0x13-javascript_objects_scopes_closures](https://github.com/richard-1257/alx-higher_level_programming/tree/master/0x13-javascript_objects_scopes_closures)
 - [0x14-javascript-web_scraping](https://github.com/richard-1257/alx-higher_level_programming/tree/master/0x14-javascript-web_scraping)
 - [0x15-javascript-web_jquery](https://github.com/richard-1257/alx-higher_level_programming/tree/master/0x15-javascript-web_jquery)
+
+## Acknowledgements 🙏
+All work contained in this project was completed as part of the curriculum for the ALX-SE programme. ALX Africa is an online full-stack software engineering program that prepares students for careers in the tech industry using project-based peer learning and Collaborators are acknowledged within each project. For more information, [visit this link.](https://www.alxafrica.com/)
