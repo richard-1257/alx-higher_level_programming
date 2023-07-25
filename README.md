@@ -37,3 +37,6 @@ At ALX, there are several tracks to become a full stack software engineer. One o
 
 ## Acknowledgements 🙏
 All work contained in this project was completed as part of the curriculum for the ALX-SE programme. ALX Africa is an online full-stack software engineering program that prepares students for careers in the tech industry using project-based peer learning and Collaborators are acknowledged within each project. For more information, [visit this link.](https://www.alxafrica.com/)
+
+## Author :
+<details><summary>Richard ifeanyi</summary>
