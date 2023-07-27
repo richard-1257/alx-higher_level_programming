@@ -18,3 +18,10 @@ Prototypes for functions written in this project:
 | `10-divisible_by_2.py` | `def divisible_by_2(my_list=[]):` |
 | `11-delete_at.py` | `def delete_at(my_list=[], idx=0):` |
 | `100-print_python_list_info.c` | `void print_python_list_info(PyObject *p);` |
+
+## Tasks 📃
+- 0. Print a list of integers
+
+
+
+
