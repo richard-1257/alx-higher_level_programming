@@ -30,6 +30,11 @@ Prototypes for functions written in this project:
   - Without import modules or using `try/except`.
  
 - 3. Print a list of integers... in reverse!
+  - [3-print_reversed_list_integer.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x03-python-data_structures/3-print_reversed_list_integer.py): Python function that prints all integers of a list, one per line, in reverse order.
+  - Without importing modules or casting integers into strings.
+ 
+- 4. Replace in a copy
+  - [4-new_in_list.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x03-python-data_structures/4-new_in_list.py):  Python function that replaces an element of a list at a specific position without modifying the original list.
 
 
 
