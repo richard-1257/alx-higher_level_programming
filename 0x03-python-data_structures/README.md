@@ -87,9 +87,5 @@ Prototypes for functions written in this project:
     - [linked_lists.c](linked_lists.c) : C functions handling linked lists for testing 13-is_palindrome.c (provided by ALX).
     - [lists.h](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x03-python-data_structures/lists.h): Header file containing definitions and prototypes for all types and functions used in linked_lists.c and 13-insert_number.c.
  
-- 14. CPython #0: Python lists 
-
-
-
-
-
+- 14. CPython #0: Python lists
+  - [100-print_python_list_info.c](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x03-python-data_structures/100-print_python_list_info.c): C function that prints basic information about Python lists.
