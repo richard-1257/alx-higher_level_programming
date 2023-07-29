@@ -39,6 +39,12 @@ Prototypes for functions written in this project:
   - Without importing modules or using `try/except`.
  
 - 5. Can you C me now?
+  - [5-no_c.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x03-python-data_structures/5-no_c.py): Python function that removes all characters `c` and `C` from a string and returns the string.
+  - Without importing modules or using `str.replace()`.
+ 
+- 6. Lists of lists = Matrix
+
+
 
 
 
