@@ -61,6 +61,11 @@ Prototypes for functions written in this project:
   - Without importing modules.
  
 - 9. Find the max
+  - [9-max_integer.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x03-python-data_structures/9-max_integer.py): Python function that finds the biggest integer of a list.
+  - If the list is empty, the function returns `None`.
+  - Without importing modules or using the builtin `max()`.
+ 
+- 10. Only by 2
 
 
 
