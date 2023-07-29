@@ -21,6 +21,15 @@ Prototypes for functions written in this project:
 
 ## Tasks 📃
 - 0. Print a list of integers
+  - [0-print_list_integer.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x03-python-data_structures/0-print_list_integer.py): Python function that prints all integers of a list, one per line.
+  - Without importing modules or casting integers into strings.
+ 
+- 1. Secure access to an element in a list
+  - [1-element_at.py](https://github.com/richard-1257/alx-higher_level_programming/blob/master/0x03-python-data_structures/1-element_at.py): Python function that retrieves an element from a list.
+  - If `idx` is negative or out of range (greater than the number of elements in `my_list`), the function returns `None`.
+  - Without import modules or using `try/except`.
+ 
+- 3. Print a list of integers... in reverse!
 
 
 
