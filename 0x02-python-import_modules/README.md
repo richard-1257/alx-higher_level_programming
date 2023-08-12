@@ -14,4 +14,9 @@ In this project, I learned about importing and using functions and creating modu
     + A new line, followed by
     + One argument per line - the position of the argument (starting at `1`) followed by `:` followed by the argument value and another new line.
    
-+ [x] 3. **Infinite addition** 
++ [x] 3. **Infinite addition**<br/>[3-infinite_add.py](3-infinite_add.py) : Python program that prints the result of the addition of all arguments.
+  + Output: Sum of the arguments followed by a new line.
+
+
+
+
