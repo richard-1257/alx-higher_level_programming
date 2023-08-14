@@ -21,5 +21,5 @@ In this project, I learned about importing and using functions and creating modu
   + Output: One name per line in alphabetical order.
   + Names starting with `__` are not printed.
 
-+ [x] 5. **Everything can be imported**<br/>[5-variable_load.py](5-variable_load.py) : Python program that imorts the variable `a` from the file variable_load_5.py and prints its value.
++ [x] 5. **Everything can be imported**<br/>[5-variable_load.py](5-variable_load.py) : Python program that imorts the variable `a` from the file [variable_load_5.py](variable_load_5.py) and prints its value.
 
