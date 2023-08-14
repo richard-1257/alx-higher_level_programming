@@ -37,11 +37,7 @@ In this project, I learned about importing and using functions and creating modu
 + [x] 7. **Easy print**<br/>[101-easy_print.py](101-easy_print.py) : Python program that prints `#pythoniscool` followed by a new line in the standard output.
   + Without using `print`, `eval`, `open`, or `sys`.
      
-+ [x] 8. **ByteCode -> Python #3**<br/>[102-magic_calculation.py](102-magic_calculation.py): Python function matching exactly a bytecode provided by [ALX](https://www.alxafrica.com/). 
++ [x] 8. **ByteCode -> Python #3**<br/>[102-magic_calculation.py](102-magic_calculation.py): Python function matching exactly a bytecode provided by [ALX](https://www.alxafrica.com/).
 
-
-
-
-
-
-
++ [x] 9. **Fast alphabet**<br/>[103-fast_alphabet.py](103-fast_alphabet.py): Python program that prints the alphabet in uppercase, followed by a new line.
+  x Without using loops, conditoinals, `str.join()`, string literals, or system calls.
